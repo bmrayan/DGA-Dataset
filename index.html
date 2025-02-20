@@ -1,21 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DGA Transformer Data</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main Database Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    /* Top Navigation Bar */
+    .navbar {
+      background-color: maroon;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .navbar a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 10px;
+    }
+    .navbar a:hover {
+      background-color: #b30000;
+      border-radius: 4px;
+    }
+    /* Main Content Area */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    /* Console Area */
+    .console {
+      background-color: #eee;
+      padding: 20px;
+      border-radius: 4px;
+      font-family: 'Courier New', Courier, monospace;
+      min-height: 150px;
+      margin-bottom: 20px;
+    }
+    .console input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    /* Extract Data Button */
+    .extract-button {
+      background-color: maroon;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .extract-button:hover {
+      background-color: #b30000;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Transformer DGA Data</h1>
-        <p>Welcome to the public dataset for Transformer Dissolved Gas Analysis (DGA).</p>
-    </header>
-    <section>
-        <h2>Data Files</h2>
-        <ul>
-            <li><a href="path/to/your/datafile.csv">Download Data File 1</a></li>
-            <li><a href="path/to/another/datafile.xlsx">Download Data File 2</a></li>
-        </ul>
-    </section>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <a href="database.html">Database</a>
+    <a href="analysis.html">Statistical Analysis</a>
+    <a href="collection.html">Data Collection Method</a>
+  </div>
+
+  <!-- Main Content Container -->
+  <div class="container">
+    <!-- Console Area -->
+    <div class="console" id="console">
+      <p>Enter your database query here:</p>
+      <input type="text" id="queryInput" placeholder="Type your query">
+    </div>
+    <!-- Extract Data Button -->
+    <button class="extract-button" onclick="extractData()">Extract Data</button>
+  </div>
+
+  <script>
+    function extractData() {
+      var query = document.getElementById('queryInput').value;
+      // Replace this alert with your actual data extraction logic.
+      alert("Extracting data for query: " + query);
+    }
+  </script>
+
 </body>
 </html>
