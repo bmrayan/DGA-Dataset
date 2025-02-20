@@ -57,6 +57,24 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+    /* Query Guide Text */
+    .query-guide {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 600px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 15px;
+    }
+    .query-guide h3 {
+      margin-top: 0;
+      color: maroon;
+    }
+    .query-guide ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
     /* Extract Data Button */
     .extract-button {
       background-color: maroon;
@@ -88,6 +106,20 @@
       <p>Enter your database query here:</p>
       <input type="text" id="queryInput" placeholder="Type your query">
     </div>
+    
+    <!-- Query Guide Text -->
+    <div class="query-guide">
+      <h3>Guide to Write a Query</h3>
+      <ul>
+        <li><strong>Select Data:</strong> Use <code>SELECT</code> to choose the columns you need.</li>
+        <li><strong>Specify the Source:</strong> Use <code>FROM</code> to indicate the table you're querying.</li>
+        <li><strong>Filter Results:</strong> Add a <code>WHERE</code> clause to narrow down the data.</li>
+        <li><strong>Sort Data:</strong> Use <code>ORDER BY</code> to arrange your results.</li>
+        <li><strong>Combine Data:</strong> Use <code>JOIN</code> to merge information from multiple tables.</li>
+      </ul>
+      <p>This guide is designed to help you quickly build effective queries in a simple and easy-to-understand way.</p>
+    </div>
+
     <!-- Extract Data Button -->
     <button class="extract-button" onclick="extractData()">Extract Data</button>
   </div>
