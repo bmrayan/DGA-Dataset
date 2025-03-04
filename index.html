@@ -10,7 +10,6 @@
       font-family: 'Helvetica Neue', Arial, sans-serif;
       background-color: #f9f9f9;
     }
-    /* Top Navigation Bar */
     .navbar {
       background-color: maroon;
       display: flex;
@@ -29,7 +28,6 @@
       background-color: #b30000;
       border-radius: 4px;
     }
-    /* Main Content Area */
     .container {
       max-width: 800px;
       margin: 40px auto;
@@ -40,7 +38,6 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-    /* Console Area */
     .console {
       background-color: #eee;
       padding: 20px;
@@ -57,25 +54,6 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
-    /* Query Guide Text */
-    .query-guide {
-      text-align: left;
-      margin: 20px auto;
-      max-width: 600px;
-      background-color: #f7f7f7;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      padding: 15px;
-    }
-    .query-guide h3 {
-      margin-top: 0;
-      color: maroon;
-    }
-    .query-guide ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-    /* Extract Data Button */
     .extract-button {
       background-color: maroon;
       color: #fff;
@@ -88,49 +66,62 @@
     .extract-button:hover {
       background-color: #b30000;
     }
+    #queryResults {
+      margin-top: 20px;
+      text-align: left;
+      background-color: #f7f7f7;
+      padding: 15px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      white-space: pre-wrap;
+    }
   </style>
 </head>
 <body>
-
-  <!-- Top Navigation Bar -->
   <div class="navbar">
     <a href="https://bmrayan.github.io/dgadb">Database</a>
     <a href="analysis.html">Statistical Analysis</a>
     <a href="collection.html">Data Collection Method</a>
   </div>
 
-  <!-- Main Content Container -->
   <div class="container">
-    <!-- Console Area -->
     <div class="console" id="console">
       <p>Enter your database query here:</p>
-      <input type="text" id="queryInput" placeholder="Type your query">
+      <input type="text" id="queryInput" placeholder="Type your query (e.g., Hydrogen > 50)">
+      <p>Select Sheet:</p>
+      <input type="text" id="sheetInput" placeholder="Sheet Name (e.g., t1-1, 2024 Reading)">
     </div>
-    
-    <!-- Query Guide Text -->
-    <div class="query-guide">
-      <h3>Guide to Write a Query</h3>
-      <ul>
-        <li><strong>Select Data:</strong> Use <code>SELECT</code> to choose the columns you need.</li>
-        <li><strong>Specify the Source:</strong> Use <code>FROM</code> to indicate the table you're querying.</li>
-        <li><strong>Filter Results:</strong> Add a <code>WHERE</code> clause to narrow down the data.</li>
-        <li><strong>Sort Data:</strong> Use <code>ORDER BY</code> to arrange your results.</li>
-        <li><strong>Combine Data:</strong> Use <code>JOIN</code> to merge information from multiple tables.</li>
-      </ul>
-      <p>This guide is designed to help you quickly build effective queries in a simple and easy-to-understand way.</p>
-    </div>
-
-    <!-- Extract Data Button -->
     <button class="extract-button" onclick="extractData()">Extract Data</button>
+    <div id="queryResults"></div>
   </div>
 
   <script>
+    let dgaData;
+    fetch('DGA_Data.json')
+      .then(response => response.json())
+      .then(data => dgaData = data)
+      .catch(error => console.error('Error loading data:', error));
+
     function extractData() {
-      var query = document.getElementById('queryInput').value;
-      // Replace this alert with your actual data extraction logic.
-      alert("Extracting data for query: " + query);
+      let query = document.getElementById('queryInput').value;
+      let sheet = document.getElementById('sheetInput').value;
+      let resultDiv = document.getElementById('queryResults');
+
+      if (!dgaData || !dgaData[sheet]) {
+        resultDiv.innerHTML = 'Sheet not found.';
+        return;
+      }
+
+      let results = dgaData[sheet].filter(row => {
+        try {
+          return eval(query.replace(/([a-zA-Z()]+)\s*/g, 'row["$1"]'));
+        } catch (e) {
+          return false;
+        }
+      });
+
+      resultDiv.innerHTML = '<h3>Query Results</h3>' + JSON.stringify(results, null, 2);
     }
   </script>
-
 </body>
 </html>
