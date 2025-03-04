@@ -103,10 +103,15 @@
 
   <script>
     let dgaData, extractedData = [];
-    fetch('DGA_Data_Cleaned.json')
-      .then(response => response.json())
-      .then(data => dgaData = data)
-      .catch(error => console.error('Error loading data:', error));
+let dgaData = null;
+
+fetch('./DGA_Data_Cleaned.json')
+  .then(response => response.json())
+  .then(data => {
+    dgaData = data;
+    console.log("Data loaded successfully:", dgaData);
+  })
+  .catch(error => console.error("Failed to load JSON:", error));
 
     function extractData() {
       let query = document.getElementById('queryInput').value;
