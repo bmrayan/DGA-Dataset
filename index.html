@@ -54,7 +54,7 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
-    .extract-button {
+    .extract-button, .preset-button {
       background-color: maroon;
       color: #fff;
       padding: 12px 24px;
@@ -62,8 +62,9 @@
       border-radius: 4px;
       font-size: 16px;
       cursor: pointer;
+      margin: 5px;
     }
-    .extract-button:hover {
+    .extract-button:hover, .preset-button:hover {
       background-color: #b30000;
     }
     #queryResults {
@@ -92,6 +93,12 @@
       <input type="text" id="sheetInput" placeholder="Sheet Name (e.g., t1-1, 2024 Reading)">
     </div>
     <button class="extract-button" onclick="extractData()">Extract Data</button>
+    <p>Quick Queries:</p>
+    <button class="preset-button" onclick="setQuery('Hydrogen > 50')">High Hydrogen</button>
+    <button class="preset-button" onclick="setQuery('Methane > 20')">High Methane</button>
+    <button class="preset-button" onclick="setQuery('Ethylene > 30')">High Ethylene</button>
+    <button class="preset-button" onclick="setQuery('results == \"No Fault\"')">No Faults</button>
+    <button class="preset-button" onclick="setQuery('results != \"No Fault\"')">Faulty Transformers</button>
     <div id="queryResults"></div>
   </div>
 
@@ -121,6 +128,10 @@
       });
 
       resultDiv.innerHTML = '<h3>Query Results</h3>' + JSON.stringify(results, null, 2);
+    }
+
+    function setQuery(query) {
+      document.getElementById('queryInput').value = query;
     }
   </script>
 </body>
