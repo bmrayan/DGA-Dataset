@@ -89,8 +89,6 @@
     <div class="console" id="console">
       <p>Enter your database query here:</p>
       <input type="text" id="queryInput" placeholder="Type your query (e.g., Hydrogen > 50)">
-      <p>Select Sheet:</p>
-      <input type="text" id="sheetInput" placeholder="Sheet Name (e.g., t1-1, 2024 Reading)">
     </div>
     <button class="extract-button" onclick="extractData()">Extract Data</button>
     <p>Quick Queries:</p>
@@ -112,22 +110,24 @@
 
     function extractData() {
       let query = document.getElementById('queryInput').value;
-      let sheet = document.getElementById('sheetInput').value;
       let resultDiv = document.getElementById('queryResults');
       let downloadBtn = document.querySelector('.download-button');
+      extractedData = [];
 
-      if (!dgaData || !dgaData[sheet]) {
-        resultDiv.innerHTML = 'Sheet not found.';
+      if (!dgaData) {
+        resultDiv.innerHTML = 'Data not loaded.';
         return;
       }
 
-      extractedData = dgaData[sheet].filter(row => {
-        try {
-          return eval(query.replace(/([a-zA-Z()]+)\s*/g, 'row["$1"]'));
-        } catch (e) {
-          return false;
-        }
-      });
+      for (let sheet in dgaData) {
+        extractedData = extractedData.concat(dgaData[sheet].filter(row => {
+          try {
+            return eval(query.replace(/([a-zA-Z()]+)\s*/g, 'row["$1"]'));
+          } catch (e) {
+            return false;
+          }
+        }));
+      }
 
       resultDiv.innerHTML = '<h3>Query Results</h3>' + JSON.stringify(extractedData, null, 2);
       downloadBtn.style.display = extractedData.length > 0 ? 'block' : 'none';
