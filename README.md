@@ -1,1 +1,1 @@
-# dgadb
+# DGA Dataset
