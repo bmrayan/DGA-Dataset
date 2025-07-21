@@ -1,0 +1,24 @@
+=== RAW DGA DATA ANALYSIS SUMMARY ===
+Transformers in file: 742
+
+=== DESCRIPTIVE STATISTICS (ALL DATA) ===
+                  count        mean          std  min  25%   50%   75%      max   skewness    kurtosis
+Hydrogen (H2)     743.0  348.416164  1674.115933  0.0  5.0  16.0  55.5  23349.0   7.762784   73.366926
+Methane (CH4)     743.0  160.210642   746.236018  0.0  2.0   6.0  45.5  11646.0   9.627752  113.336662
+Ethylene (C2H4)   743.0  282.024584  2089.029411  0.0  0.0   5.0  32.5  46976.0  16.943877  348.859183
+Ethane (C2H6)     743.0  107.171803   479.318483  0.0  0.0  14.0  76.5   9901.0  14.394968  260.333089
+Acetylene (C2H2)  742.0   93.685415   573.467226  0.0  0.0   0.0   0.7   9740.0   9.979591  129.328926
+
+=== CORRELATION MATRIX ===
+                  Hydrogen (H2)  Methane (CH4)  Ethylene (C2H4)  Ethane (C2H6)  Acetylene (C2H2)
+Hydrogen (H2)          1.000000       0.412382         0.256406       0.289829          0.327724
+Methane (CH4)          0.412382       1.000000         0.838123       0.868027          0.127906
+Ethylene (C2H4)        0.256406       0.838123         1.000000       0.901257          0.139483
+Ethane (C2H6)          0.289829       0.868027         0.901257       1.000000          0.118382
+Acetylene (C2H2)       0.327724       0.127906         0.139483       0.118382          1.000000
+
+=== FAULT DISTRIBUTION ===
+Fault
+No Fault            14
+Electrical Fault     2
+Thermal Fault        2
