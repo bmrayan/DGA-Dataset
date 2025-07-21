@@ -1,0 +1,10 @@
+Now that you understand StatDGA.py
+
+Lets do these steps on the the figures
+first for all the figures inrease the font of the text in the axises and make the text bold and readble
+
+then also make a plot for
+4.5 Distribution Analysis
+
+FIGURE
+Gas concentration distributions follow characteristic patterns expected in DGA data, with log-normal characteristics enabling appropriate statistical modeling approaches. The preservation of complete data ranges ensures representation of both normal operating conditions and fault signatures essential for diagnostic algorithm development.

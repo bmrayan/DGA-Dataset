@@ -1,0 +1,6689 @@
+[
+  {
+    "ID": 1,
+    "Hydrogen": 0.0,
+    "Methane": 6.0,
+    "Ethylene": 2.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 2,
+    "Hydrogen": 0.0,
+    "Methane": 25.0,
+    "Ethylene": 13.0,
+    "Ethane": 9.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 3,
+    "Hydrogen": 0.0,
+    "Methane": 35.0,
+    "Ethylene": 37.0,
+    "Ethane": 31.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 4,
+    "Hydrogen": 0.0,
+    "Methane": 44.0,
+    "Ethylene": 28.0,
+    "Ethane": 85.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 5,
+    "Hydrogen": 251.0,
+    "Methane": 139.0,
+    "Ethylene": 256.0,
+    "Ethane": 123.0,
+    "Acetylene": 1064.0,
+    "Fault": "Electrical Fault"
+  },
+  {
+    "ID": 6,
+    "Hydrogen": 33.0,
+    "Methane": 4.0,
+    "Ethylene": 21.0,
+    "Ethane": 20.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 7,
+    "Hydrogen": 37.0,
+    "Methane": 3.0,
+    "Ethylene": 21.0,
+    "Ethane": 29.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 8,
+    "Hydrogen": 1176.0,
+    "Methane": 3426.0,
+    "Ethylene": 2931.0,
+    "Ethane": 1178.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 9,
+    "Hydrogen": 66.0,
+    "Methane": 11.0,
+    "Ethylene": 61.0,
+    "Ethane": 50.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 10,
+    "Hydrogen": 34.0,
+    "Methane": 11.0,
+    "Ethylene": 21.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 11,
+    "Hydrogen": 38.0,
+    "Methane": 4.0,
+    "Ethylene": 41.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 12,
+    "Hydrogen": 31.0,
+    "Methane": 5.0,
+    "Ethylene": 62.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 13,
+    "Hydrogen": 22.0,
+    "Methane": 8.0,
+    "Ethylene": 55.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 14,
+    "Hydrogen": 7.0,
+    "Methane": 12.0,
+    "Ethylene": 107.0,
+    "Ethane": 6.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 15,
+    "Hydrogen": 31.0,
+    "Methane": 25.0,
+    "Ethylene": 81.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 16,
+    "Hydrogen": 6.0,
+    "Methane": 6.0,
+    "Ethylene": 4.0,
+    "Ethane": 22.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 17,
+    "Hydrogen": 10.0,
+    "Methane": 7.0,
+    "Ethylene": 2.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 18,
+    "Hydrogen": 13.0,
+    "Methane": 11.0,
+    "Ethylene": 3.0,
+    "Ethane": 26.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 19,
+    "Hydrogen": 48.0,
+    "Methane": 24.0,
+    "Ethylene": 12.0,
+    "Ethane": 63.0,
+    "Acetylene": 14.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 20,
+    "Hydrogen": 335.0,
+    "Methane": 246.0,
+    "Ethylene": 1324.0,
+    "Ethane": 150.0,
+    "Acetylene": 1123.0,
+    "Fault": "Electrical Fault"
+  },
+  {
+    "ID": 21,
+    "Hydrogen": 0.0,
+    "Methane": 1.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 22,
+    "Hydrogen": 0.0,
+    "Methane": 7.0,
+    "Ethylene": 11.0,
+    "Ethane": 14.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 23,
+    "Hydrogen": 0.0,
+    "Methane": 64.0,
+    "Ethylene": 150.0,
+    "Ethane": 99.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 24,
+    "Hydrogen": 218.0,
+    "Methane": 744.0,
+    "Ethylene": 1743.0,
+    "Ethane": 264.0,
+    "Acetylene": 7.0,
+    "Fault": "Thermal Fault"
+  },
+  {
+    "ID": 25,
+    "Hydrogen": 5.0,
+    "Methane": 44.0,
+    "Ethylene": 4.0,
+    "Ethane": 9.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 26,
+    "Hydrogen": 6.0,
+    "Methane": 42.0,
+    "Ethylene": 10.0,
+    "Ethane": 9.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 27,
+    "Hydrogen": 6.0,
+    "Methane": 44.0,
+    "Ethylene": 12.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 28,
+    "Hydrogen": 7.0,
+    "Methane": 56.0,
+    "Ethylene": 12.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 29,
+    "Hydrogen": 628.0,
+    "Methane": 1381.0,
+    "Ethylene": 1873.0,
+    "Ethane": 351.0,
+    "Acetylene": 2.8,
+    "Fault": "Thermal Fault"
+  },
+  {
+    "ID": 30,
+    "Hydrogen": 5.0,
+    "Methane": 3.0,
+    "Ethylene": 1.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 31,
+    "Hydrogen": 9.0,
+    "Methane": 19.0,
+    "Ethylene": 13.0,
+    "Ethane": 2.0,
+    "Acetylene": 10.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 32,
+    "Hydrogen": 7.0,
+    "Methane": 31.0,
+    "Ethylene": 1.0,
+    "Ethane": 1.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 33,
+    "Hydrogen": 8.0,
+    "Methane": 9.0,
+    "Ethylene": 12.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 34,
+    "Hydrogen": 9.0,
+    "Methane": 13.0,
+    "Ethylene": 25.0,
+    "Ethane": 4.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 35,
+    "Hydrogen": 7.0,
+    "Methane": 27.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 36,
+    "Hydrogen": 5.0,
+    "Methane": 269.0,
+    "Ethylene": 399.0,
+    "Ethane": 51.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 37,
+    "Hydrogen": 6.0,
+    "Methane": 196.0,
+    "Ethylene": 388.0,
+    "Ethane": 85.0,
+    "Acetylene": 3.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 38,
+    "Hydrogen": 5.0,
+    "Methane": 46.0,
+    "Ethylene": 165.0,
+    "Ethane": 40.0,
+    "Acetylene": 8.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 39,
+    "Hydrogen": 6.0,
+    "Methane": 19.0,
+    "Ethylene": 108.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 40,
+    "Hydrogen": 7.0,
+    "Methane": 24.0,
+    "Ethylene": 57.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 41,
+    "Hydrogen": 9.0,
+    "Methane": 14.0,
+    "Ethylene": 93.0,
+    "Ethane": 6.0,
+    "Acetylene": 3.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 42,
+    "Hydrogen": 11.0,
+    "Methane": 29.0,
+    "Ethylene": 59.0,
+    "Ethane": 6.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 43,
+    "Hydrogen": 8.0,
+    "Methane": 91.0,
+    "Ethylene": 198.0,
+    "Ethane": 32.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 44,
+    "Hydrogen": 9.0,
+    "Methane": 269.0,
+    "Ethylene": 399.0,
+    "Ethane": 51.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 45,
+    "Hydrogen": 8.0,
+    "Methane": 196.0,
+    "Ethylene": 388.0,
+    "Ethane": 85.0,
+    "Acetylene": 3.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 46,
+    "Hydrogen": 10.0,
+    "Methane": 46.0,
+    "Ethylene": 165.0,
+    "Ethane": 40.0,
+    "Acetylene": 8.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 47,
+    "Hydrogen": 47.2,
+    "Methane": 27.4,
+    "Ethylene": 28.5,
+    "Ethane": 0.1,
+    "Acetylene": 0.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 48,
+    "Hydrogen": 4.2,
+    "Methane": 1.5,
+    "Ethylene": 2.18,
+    "Ethane": 0.57,
+    "Acetylene": 0.03,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 49,
+    "Hydrogen": 1.0,
+    "Methane": 3.76,
+    "Ethylene": 1.0,
+    "Ethane": 12.9,
+    "Acetylene": 0.7,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 50,
+    "Hydrogen": 2.1,
+    "Methane": 83.5,
+    "Ethylene": 49.9,
+    "Ethane": 51.3,
+    "Acetylene": 0.9,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 51,
+    "Hydrogen": 111.0,
+    "Methane": 100.1,
+    "Ethylene": 100.6,
+    "Ethane": 37.0,
+    "Acetylene": 4.3,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 52,
+    "Hydrogen": 19.1,
+    "Methane": 72.7,
+    "Ethylene": 91.5,
+    "Ethane": 33.2,
+    "Acetylene": 24.7,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 53,
+    "Hydrogen": 19.1,
+    "Methane": 111.9,
+    "Ethylene": 111.6,
+    "Ethane": 3.4,
+    "Acetylene": 1.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 54,
+    "Hydrogen": 12.9,
+    "Methane": 329.0,
+    "Ethylene": 329.0,
+    "Ethane": 7.4,
+    "Acetylene": 0.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 55,
+    "Hydrogen": 31.9,
+    "Methane": 25.9,
+    "Ethylene": 157.0,
+    "Ethane": 15.1,
+    "Acetylene": 1.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 56,
+    "Hydrogen": 68.2,
+    "Methane": 211.7,
+    "Ethylene": 229.4,
+    "Ethane": 56.4,
+    "Acetylene": 4.7,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 57,
+    "Hydrogen": 71.4,
+    "Methane": 178.3,
+    "Ethylene": 461.0,
+    "Ethane": 93.9,
+    "Acetylene": 2.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 58,
+    "Hydrogen": 71.1,
+    "Methane": 144.0,
+    "Ethylene": 461.6,
+    "Ethane": 93.2,
+    "Acetylene": 2.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 59,
+    "Hydrogen": 105.5,
+    "Methane": 313.9,
+    "Ethylene": 619.9,
+    "Ethane": 119.2,
+    "Acetylene": 1.3,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 60,
+    "Hydrogen": 42.1,
+    "Methane": 80.7,
+    "Ethylene": 91.2,
+    "Ethane": 21.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 61,
+    "Hydrogen": 31.3,
+    "Methane": 23.5,
+    "Ethylene": 466.8,
+    "Ethane": 58.9,
+    "Acetylene": 3.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 62,
+    "Hydrogen": 115.1,
+    "Methane": 313.1,
+    "Ethylene": 289.9,
+    "Ethane": 58.7,
+    "Acetylene": 3.2,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 63,
+    "Hydrogen": 15.9,
+    "Methane": 147.9,
+    "Ethylene": 257.1,
+    "Ethane": 4.8,
+    "Acetylene": 1.4,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 64,
+    "Hydrogen": 4.9,
+    "Methane": 169.9,
+    "Ethylene": 316.6,
+    "Ethane": 66.8,
+    "Acetylene": 0.4,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 65,
+    "Hydrogen": 26.7,
+    "Methane": 320.1,
+    "Ethylene": 562.6,
+    "Ethane": 163.0,
+    "Acetylene": 1.2,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 66,
+    "Hydrogen": 14.5,
+    "Methane": 734.0,
+    "Ethylene": 1398.7,
+    "Ethane": 227.6,
+    "Acetylene": 5.8,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 67,
+    "Hydrogen": 18.0,
+    "Methane": 41.0,
+    "Ethylene": 20.0,
+    "Ethane": 13.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 68,
+    "Hydrogen": 17.0,
+    "Methane": 44.0,
+    "Ethylene": 35.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 69,
+    "Hydrogen": 16.0,
+    "Methane": 44.0,
+    "Ethylene": 71.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 70,
+    "Hydrogen": 15.0,
+    "Methane": 43.0,
+    "Ethylene": 72.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 71,
+    "Hydrogen": 17.0,
+    "Methane": 44.0,
+    "Ethylene": 75.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.7,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 72,
+    "Hydrogen": 16.0,
+    "Methane": 44.0,
+    "Ethylene": 80.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.7,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 73,
+    "Hydrogen": 20.0,
+    "Methane": 43.0,
+    "Ethylene": 81.0,
+    "Ethane": 17.0,
+    "Acetylene": 1.4,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 74,
+    "Hydrogen": 0.0,
+    "Methane": 35.0,
+    "Ethylene": 28.0,
+    "Ethane": 23.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 75,
+    "Hydrogen": 0.0,
+    "Methane": 27.0,
+    "Ethylene": 13.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 76,
+    "Hydrogen": 0.0,
+    "Methane": 27.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 77,
+    "Hydrogen": 28.0,
+    "Methane": 28.0,
+    "Ethylene": 0.0,
+    "Ethane": 18.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 78,
+    "Hydrogen": 0.0,
+    "Methane": 95.0,
+    "Ethylene": 23.0,
+    "Ethane": 147.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 79,
+    "Hydrogen": 0.0,
+    "Methane": 43.0,
+    "Ethylene": 0.0,
+    "Ethane": 19.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 80,
+    "Hydrogen": 56.0,
+    "Methane": 126.0,
+    "Ethylene": 19.0,
+    "Ethane": 66.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 81,
+    "Hydrogen": 70.0,
+    "Methane": 158.0,
+    "Ethylene": 24.0,
+    "Ethane": 86.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 82,
+    "Hydrogen": 0.0,
+    "Methane": 19.0,
+    "Ethylene": 0.0,
+    "Ethane": 19.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 83,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 21.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 84,
+    "Hydrogen": 0.0,
+    "Methane": 230.0,
+    "Ethylene": 49.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 85,
+    "Hydrogen": 0.0,
+    "Methane": 159.0,
+    "Ethylene": 67.0,
+    "Ethane": 154.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 86,
+    "Hydrogen": 0.0,
+    "Methane": 343.0,
+    "Ethylene": 457.0,
+    "Ethane": 239.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 87,
+    "Hydrogen": 0.0,
+    "Methane": 414.0,
+    "Ethylene": 508.0,
+    "Ethane": 276.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 88,
+    "Hydrogen": 336.0,
+    "Methane": 1568.0,
+    "Ethylene": 1728.0,
+    "Ethane": 579.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 89,
+    "Hydrogen": 582.0,
+    "Methane": 2398.0,
+    "Ethylene": 2960.0,
+    "Ethane": 753.0,
+    "Acetylene": 4.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 90,
+    "Hydrogen": 116.0,
+    "Methane": 382.0,
+    "Ethylene": 367.0,
+    "Ethane": 185.0,
+    "Acetylene": 4.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 91,
+    "Hydrogen": 1227.0,
+    "Methane": 2445.0,
+    "Ethylene": 2667.0,
+    "Ethane": 993.0,
+    "Acetylene": 8.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 92,
+    "Hydrogen": 2031.0,
+    "Methane": 149.0,
+    "Ethylene": 3.0,
+    "Ethane": 20.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 93,
+    "Hydrogen": 56.0,
+    "Methane": 61.0,
+    "Ethylene": 32.0,
+    "Ethane": 75.0,
+    "Acetylene": 31.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 94,
+    "Hydrogen": 57.0,
+    "Methane": 24.0,
+    "Ethylene": 27.0,
+    "Ethane": 2.0,
+    "Acetylene": 30.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 95,
+    "Hydrogen": 12.0,
+    "Methane": 18.0,
+    "Ethylene": 4.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 96,
+    "Hydrogen": 19.0,
+    "Methane": 47.0,
+    "Ethylene": 62.0,
+    "Ethane": 27.0,
+    "Acetylene": 0.001,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 97,
+    "Hydrogen": 56.0,
+    "Methane": 286.0,
+    "Ethylene": 28.0,
+    "Ethane": 96.0,
+    "Acetylene": 7.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 98,
+    "Hydrogen": 100.0,
+    "Methane": 120.0,
+    "Ethylene": 50.0,
+    "Ethane": 65.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 99,
+    "Hydrogen": 5.63e-21,
+    "Methane": 0.1683,
+    "Ethylene": 0.954,
+    "Ethane": 0.0398,
+    "Acetylene": 0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 100,
+    "Hydrogen": 169.0,
+    "Methane": 569.0,
+    "Ethylene": 549.0,
+    "Ethane": 252.0,
+    "Acetylene": 0.8,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 101,
+    "Hydrogen": 197.0,
+    "Methane": 57.0,
+    "Ethylene": 8.0,
+    "Ethane": 159.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 102,
+    "Hydrogen": 3.37,
+    "Methane": 1.33,
+    "Ethylene": 3.98,
+    "Ethane": 1.99,
+    "Acetylene": 1.22,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 103,
+    "Hydrogen": 4.475,
+    "Methane": 4.215,
+    "Ethylene": 4.945,
+    "Ethane": 5.87,
+    "Acetylene": 5.385,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 104,
+    "Hydrogen": 14.125,
+    "Methane": 10.81,
+    "Ethylene": 11.48,
+    "Ethane": 13.725,
+    "Acetylene": 11.28,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 105,
+    "Hydrogen": 114.37,
+    "Methane": 63.39,
+    "Ethylene": 59.29,
+    "Ethane": 49.82,
+    "Acetylene": 58.72,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 106,
+    "Hydrogen": 480.63,
+    "Methane": 530.61,
+    "Ethylene": 578.1,
+    "Ethane": 576.51,
+    "Acetylene": 592.2,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 107,
+    "Hydrogen": 140.0,
+    "Methane": 40.0,
+    "Ethylene": 15.0,
+    "Ethane": 70.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 108,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 109,
+    "Hydrogen": 965.0,
+    "Methane": 672.0,
+    "Ethylene": 791.0,
+    "Ethane": 67.0,
+    "Acetylene": 753.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 110,
+    "Hydrogen": 936.5,
+    "Methane": 1032.0,
+    "Ethylene": 1172.0,
+    "Ethane": 90.4,
+    "Acetylene": 1413.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 111,
+    "Hydrogen": 747.0,
+    "Methane": 814.0,
+    "Ethylene": 851.0,
+    "Ethane": 63.2,
+    "Acetylene": 695.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 112,
+    "Hydrogen": 547.1,
+    "Methane": 562.8,
+    "Ethylene": 733.7,
+    "Ethane": 63.7,
+    "Acetylene": 707.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 113,
+    "Hydrogen": 71.3,
+    "Methane": 57.3,
+    "Ethylene": 59.5,
+    "Ethane": 4.4,
+    "Acetylene": 68.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 114,
+    "Hydrogen": 55.0,
+    "Methane": 70.0,
+    "Ethylene": 68.0,
+    "Ethane": 30.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 115,
+    "Hydrogen": 20.0,
+    "Methane": 70.0,
+    "Ethylene": 20.0,
+    "Ethane": 10.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 116,
+    "Hydrogen": 160.0,
+    "Methane": 200.0,
+    "Ethylene": 380.0,
+    "Ethane": 91.0,
+    "Acetylene": 21.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 117,
+    "Hydrogen": 80.0,
+    "Methane": 200.0,
+    "Ethylene": 60.0,
+    "Ethane": 40.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 118,
+    "Hydrogen": 40.0,
+    "Methane": 40.0,
+    "Ethylene": 70.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 119,
+    "Hydrogen": 35.0,
+    "Methane": 100.0,
+    "Ethylene": 60.0,
+    "Ethane": 20.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 120,
+    "Hydrogen": 156.0,
+    "Methane": 134.0,
+    "Ethylene": 291.0,
+    "Ethane": 94.0,
+    "Acetylene": 22.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 121,
+    "Hydrogen": 100.0,
+    "Methane": 270.0,
+    "Ethylene": 350.0,
+    "Ethane": 60.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 122,
+    "Hydrogen": 115.0,
+    "Methane": 240.0,
+    "Ethylene": 360.0,
+    "Ethane": 80.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 123,
+    "Hydrogen": 100.0,
+    "Methane": 250.0,
+    "Ethylene": 270.0,
+    "Ethane": 75.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 124,
+    "Hydrogen": 1300.0,
+    "Methane": 1200.0,
+    "Ethylene": 370.0,
+    "Ethane": 630.0,
+    "Acetylene": 200.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 125,
+    "Hydrogen": 80.0,
+    "Methane": 80.0,
+    "Ethylene": 140.0,
+    "Ethane": 60.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 126,
+    "Hydrogen": 200.0,
+    "Methane": 240.0,
+    "Ethylene": 100.0,
+    "Ethane": 130.0,
+    "Acetylene": 65.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 127,
+    "Hydrogen": 700.0,
+    "Methane": 95.0,
+    "Ethylene": 50.0,
+    "Ethane": 38.0,
+    "Acetylene": 125.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 128,
+    "Hydrogen": 45.0,
+    "Methane": 120.0,
+    "Ethylene": 20.0,
+    "Ethane": 80.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 129,
+    "Hydrogen": 180.0,
+    "Methane": 300.0,
+    "Ethylene": 400.0,
+    "Ethane": 70.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 130,
+    "Hydrogen": 40.0,
+    "Methane": 8.0,
+    "Ethylene": 50.0,
+    "Ethane": 40.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 131,
+    "Hydrogen": 152.0,
+    "Methane": 140.0,
+    "Ethylene": 282.0,
+    "Ethane": 95.0,
+    "Acetylene": 67.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 132,
+    "Hydrogen": 800.0,
+    "Methane": 70.0,
+    "Ethylene": 55.0,
+    "Ethane": 70.0,
+    "Acetylene": 15.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 133,
+    "Hydrogen": 20.0,
+    "Methane": 40.0,
+    "Ethylene": 90.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 134,
+    "Hydrogen": 60.0,
+    "Methane": 120.0,
+    "Ethylene": 230.0,
+    "Ethane": 70.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 135,
+    "Hydrogen": 10.0,
+    "Methane": 15.0,
+    "Ethylene": 60.0,
+    "Ethane": 80.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 136,
+    "Hydrogen": 21.0,
+    "Methane": 124.0,
+    "Ethylene": 183.0,
+    "Ethane": 45.0,
+    "Acetylene": 5.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 137,
+    "Hydrogen": 1570.0,
+    "Methane": 1110.0,
+    "Ethylene": 1780.0,
+    "Ethane": 175.0,
+    "Acetylene": 1830.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 138,
+    "Hydrogen": 3420.0,
+    "Methane": 7870.0,
+    "Ethylene": 6990.0,
+    "Ethane": 1500.0,
+    "Acetylene": 33.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 139,
+    "Hydrogen": 109.0,
+    "Methane": 42.0,
+    "Ethylene": 40.0,
+    "Ethane": 5.0,
+    "Acetylene": 14.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 140,
+    "Hydrogen": 63.0,
+    "Methane": 7.4,
+    "Ethylene": 17.0,
+    "Ethane": 1.8,
+    "Acetylene": 6.2,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 141,
+    "Hydrogen": 835.0,
+    "Methane": 76.0,
+    "Ethylene": 10.0,
+    "Ethane": 29.0,
+    "Acetylene": 16.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 142,
+    "Hydrogen": 217.0,
+    "Methane": 286.0,
+    "Ethylene": 458.0,
+    "Ethane": 14.0,
+    "Acetylene": 884.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 143,
+    "Hydrogen": 41.0,
+    "Methane": 112.0,
+    "Ethylene": 254.0,
+    "Ethane": 0.0,
+    "Acetylene": 4536.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 144,
+    "Hydrogen": 105.0,
+    "Methane": 10.0,
+    "Ethylene": 11.0,
+    "Ethane": 1.0,
+    "Acetylene": 43.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 145,
+    "Hydrogen": 173.0,
+    "Methane": 334.0,
+    "Ethylene": 813.0,
+    "Ethane": 172.0,
+    "Acetylene": 3737.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 146,
+    "Hydrogen": 34.0,
+    "Methane": 39.0,
+    "Ethylene": 40.0,
+    "Ethane": 9.0,
+    "Acetylene": 9.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 147,
+    "Hydrogen": 72.0,
+    "Methane": 532.0,
+    "Ethylene": 85.0,
+    "Ethane": 16.0,
+    "Acetylene": 98.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 148,
+    "Hydrogen": 60.0,
+    "Methane": 5.0,
+    "Ethylene": 21.0,
+    "Ethane": 2.0,
+    "Acetylene": 21.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 149,
+    "Hydrogen": 441.0,
+    "Methane": 207.0,
+    "Ethylene": 224.0,
+    "Ethane": 43.0,
+    "Acetylene": 261.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 150,
+    "Hydrogen": 240.0,
+    "Methane": 28.0,
+    "Ethylene": 26.0,
+    "Ethane": 6.0,
+    "Acetylene": 85.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 151,
+    "Hydrogen": 39.0,
+    "Methane": 1.7,
+    "Ethylene": 0.1,
+    "Ethane": 0.6,
+    "Acetylene": 0.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 152,
+    "Hydrogen": 95.0,
+    "Methane": 10.0,
+    "Ethylene": 11.0,
+    "Ethane": 1.0,
+    "Acetylene": 39.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 153,
+    "Hydrogen": 495.0,
+    "Methane": 1775.0,
+    "Ethylene": 2438.0,
+    "Ethane": 276.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 154,
+    "Hydrogen": 80.0,
+    "Methane": 619.0,
+    "Ethylene": 2480.0,
+    "Ethane": 326.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 155,
+    "Hydrogen": 21.0,
+    "Methane": 24.0,
+    "Ethylene": 98.0,
+    "Ethane": 23.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 156,
+    "Hydrogen": 231.0,
+    "Methane": 3997.0,
+    "Ethylene": 5584.0,
+    "Ethane": 1726.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 157,
+    "Hydrogen": 127.0,
+    "Methane": 24.0,
+    "Ethylene": 32.0,
+    "Ethane": 1.0,
+    "Acetylene": 81.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 158,
+    "Hydrogen": 2.0,
+    "Methane": 7.0,
+    "Ethylene": 1.0,
+    "Ethane": 1.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 159,
+    "Hydrogen": 217.0,
+    "Methane": 286.0,
+    "Ethylene": 458.0,
+    "Ethane": 14.0,
+    "Acetylene": 884.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 160,
+    "Hydrogen": 54.0,
+    "Methane": 1.0,
+    "Ethylene": 4.0,
+    "Ethane": 1.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 161,
+    "Hydrogen": 246.0,
+    "Methane": 43.0,
+    "Ethylene": 21.0,
+    "Ethane": 1.0,
+    "Acetylene": 53.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 162,
+    "Hydrogen": 9474.0,
+    "Methane": 4066.0,
+    "Ethylene": 6552.0,
+    "Ethane": 353.0,
+    "Acetylene": 12.997,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 163,
+    "Hydrogen": 507.0,
+    "Methane": 1053.0,
+    "Ethylene": 1440.0,
+    "Ethane": 297.0,
+    "Acetylene": 17.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 164,
+    "Hydrogen": 416.0,
+    "Methane": 695.0,
+    "Ethylene": 867.0,
+    "Ethane": 74.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 165,
+    "Hydrogen": 47.0,
+    "Methane": 12.0,
+    "Ethylene": 8.0,
+    "Ethane": 8.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 166,
+    "Hydrogen": 441.0,
+    "Methane": 207.0,
+    "Ethylene": 224.0,
+    "Ethane": 43.0,
+    "Acetylene": 261.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 167,
+    "Hydrogen": 18.9,
+    "Methane": 46.9,
+    "Ethylene": 61.54,
+    "Ethane": 6.9,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 168,
+    "Hydrogen": 116.6,
+    "Methane": 623.0,
+    "Ethylene": 1683.5,
+    "Ethane": 416.0,
+    "Acetylene": 2.87,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 169,
+    "Hydrogen": 200.0,
+    "Methane": 700.0,
+    "Ethylene": 740.0,
+    "Ethane": 250.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 170,
+    "Hydrogen": 300.0,
+    "Methane": 490.0,
+    "Ethylene": 360.0,
+    "Ethane": 180.0,
+    "Acetylene": 95.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 171,
+    "Hydrogen": 56.0,
+    "Methane": 61.0,
+    "Ethylene": 32.0,
+    "Ethane": 75.0,
+    "Acetylene": 31.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 172,
+    "Hydrogen": 33.0,
+    "Methane": 26.0,
+    "Ethylene": 5.3,
+    "Ethane": 6.0,
+    "Acetylene": 0.2,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 173,
+    "Hydrogen": 136.74,
+    "Methane": 208.69,
+    "Ethylene": 291.91,
+    "Ethane": 227.03,
+    "Acetylene": 259.52,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 174,
+    "Hydrogen": 94.01,
+    "Methane": 122.1,
+    "Ethylene": 17.11,
+    "Ethane": 149.31,
+    "Acetylene": 165.42,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 175,
+    "Hydrogen": 56.29,
+    "Methane": 22.43,
+    "Ethylene": 23.6,
+    "Ethane": 22.64,
+    "Acetylene": 24.39,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 176,
+    "Hydrogen": 24.64,
+    "Methane": 12.12,
+    "Ethylene": 11.9,
+    "Ethane": 9.46,
+    "Acetylene": 12.15,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 177,
+    "Hydrogen": 16.99,
+    "Methane": 6.17,
+    "Ethylene": 6.08,
+    "Ethane": 10.0,
+    "Acetylene": 5.91,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 178,
+    "Hydrogen": 3.2,
+    "Methane": 2.59,
+    "Ethylene": 1.79,
+    "Ethane": 1.35,
+    "Acetylene": 1.8,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 179,
+    "Hydrogen": 19.3,
+    "Methane": 103.0,
+    "Ethylene": 19.0,
+    "Ethane": 159.0,
+    "Acetylene": 0.6,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 180,
+    "Hydrogen": 27.0,
+    "Methane": 30.0,
+    "Ethylene": 2.4,
+    "Ethane": 23.0,
+    "Acetylene": 0.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 181,
+    "Hydrogen": 23.0,
+    "Methane": 63.0,
+    "Ethylene": 10.0,
+    "Ethane": 54.0,
+    "Acetylene": 0.3,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 182,
+    "Hydrogen": 21.0,
+    "Methane": 34.0,
+    "Ethylene": 5.0,
+    "Ethane": 5.0,
+    "Acetylene": 62.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 183,
+    "Hydrogen": 160.0,
+    "Methane": 130.0,
+    "Ethylene": 96.0,
+    "Ethane": 33.0,
+    "Acetylene": 0.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 184,
+    "Hydrogen": 180.0,
+    "Methane": 175.0,
+    "Ethylene": 50.0,
+    "Ethane": 75.0,
+    "Acetylene": 4.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 185,
+    "Hydrogen": 345.0,
+    "Methane": 112.3,
+    "Ethylene": 51.5,
+    "Ethane": 27.5,
+    "Acetylene": 58.8,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 186,
+    "Hydrogen": 30.4,
+    "Methane": 117.0,
+    "Ethylene": 138.0,
+    "Ethane": 44.2,
+    "Acetylene": 0.1,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 187,
+    "Hydrogen": 130.0,
+    "Methane": 140.0,
+    "Ethylene": 120.0,
+    "Ethane": 24.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 188,
+    "Hydrogen": 3675.0,
+    "Methane": 6392.0,
+    "Ethylene": 7691.0,
+    "Ethane": 2500.0,
+    "Acetylene": 5.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 189,
+    "Hydrogen": 119.0,
+    "Methane": 670.0,
+    "Ethylene": 934.0,
+    "Ethane": 286.0,
+    "Acetylene": 19.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 190,
+    "Hydrogen": 119.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 20.0,
+    "Acetylene": 21.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 191,
+    "Hydrogen": 130.0,
+    "Methane": 98.0,
+    "Ethylene": 56.0,
+    "Ethane": 7.0,
+    "Acetylene": 65.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 192,
+    "Hydrogen": 235.0,
+    "Methane": 16.0,
+    "Ethylene": 35.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 193,
+    "Hydrogen": 85.0,
+    "Methane": 22.0,
+    "Ethylene": 10.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 194,
+    "Hydrogen": 36.0,
+    "Methane": 5.0,
+    "Ethylene": 9.0,
+    "Ethane": 10.0,
+    "Acetylene": 7.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 195,
+    "Hydrogen": 185.0,
+    "Methane": 93.0,
+    "Ethylene": 112.0,
+    "Ethane": 44.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 196,
+    "Hydrogen": 39.0,
+    "Methane": 299.0,
+    "Ethylene": 173.0,
+    "Ethane": 762.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 197,
+    "Hydrogen": 358.0,
+    "Methane": 14.0,
+    "Ethylene": 1.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 198,
+    "Hydrogen": 106.0,
+    "Methane": 4.0,
+    "Ethylene": 2.0,
+    "Ethane": 4.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 199,
+    "Hydrogen": 3282.0,
+    "Methane": 154.0,
+    "Ethylene": 231.0,
+    "Ethane": 7.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 200,
+    "Hydrogen": 9.0,
+    "Methane": 9.0,
+    "Ethylene": 42.0,
+    "Ethane": 8.0,
+    "Acetylene": 142.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 201,
+    "Hydrogen": 58.0,
+    "Methane": 568.0,
+    "Ethylene": 1440.0,
+    "Ethane": 471.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 202,
+    "Hydrogen": 274.0,
+    "Methane": 141.0,
+    "Ethylene": 240.0,
+    "Ethane": 72.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 203,
+    "Hydrogen": 27.0,
+    "Methane": 0.0,
+    "Ethylene": 57.0,
+    "Ethane": 25.0,
+    "Acetylene": 95.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 204,
+    "Hydrogen": 14.0,
+    "Methane": 10.0,
+    "Ethylene": 37.0,
+    "Ethane": 16.0,
+    "Acetylene": 74.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 205,
+    "Hydrogen": 47.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 206,
+    "Hydrogen": 0.0,
+    "Methane": 32.0,
+    "Ethylene": 0.0,
+    "Ethane": 105.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 207,
+    "Hydrogen": 68.0,
+    "Methane": 0.0,
+    "Ethylene": 1.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 208,
+    "Hydrogen": 68.0,
+    "Methane": 0.0,
+    "Ethylene": 6.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 209,
+    "Hydrogen": 0.0,
+    "Methane": 71.0,
+    "Ethylene": 2.0,
+    "Ethane": 145.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 210,
+    "Hydrogen": 26.0,
+    "Methane": 26.0,
+    "Ethylene": 0.0,
+    "Ethane": 56.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 211,
+    "Hydrogen": 40.0,
+    "Methane": 73.0,
+    "Ethylene": 21.0,
+    "Ethane": 83.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 212,
+    "Hydrogen": 23.0,
+    "Methane": 9.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 213,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 5.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 214,
+    "Hydrogen": 16.0,
+    "Methane": 46.0,
+    "Ethylene": 0.0,
+    "Ethane": 98.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 215,
+    "Hydrogen": 25.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 13.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 216,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 35.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 217,
+    "Hydrogen": 9.0,
+    "Methane": 28.0,
+    "Ethylene": 0.0,
+    "Ethane": 34.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 218,
+    "Hydrogen": 0.0,
+    "Methane": 273.0,
+    "Ethylene": 338.0,
+    "Ethane": 193.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 219,
+    "Hydrogen": 34.0,
+    "Methane": 151.0,
+    "Ethylene": 6.0,
+    "Ethane": 323.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 220,
+    "Hydrogen": 36.0,
+    "Methane": 168.0,
+    "Ethylene": 7.0,
+    "Ethane": 354.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 221,
+    "Hydrogen": 50.0,
+    "Methane": 180.0,
+    "Ethylene": 6.0,
+    "Ethane": 368.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 222,
+    "Hydrogen": 100.0,
+    "Methane": 121.0,
+    "Ethylene": 7.0,
+    "Ethane": 170.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 223,
+    "Hydrogen": 46.0,
+    "Methane": 257.0,
+    "Ethylene": 10.0,
+    "Ethane": 378.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 224,
+    "Hydrogen": 46.0,
+    "Methane": 229.0,
+    "Ethylene": 37.0,
+    "Ethane": 690.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 225,
+    "Hydrogen": 109.0,
+    "Methane": 108.0,
+    "Ethylene": 29.0,
+    "Ethane": 166.0,
+    "Acetylene": 10.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 226,
+    "Hydrogen": 22.0,
+    "Methane": 247.0,
+    "Ethylene": 4.0,
+    "Ethane": 881.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 227,
+    "Hydrogen": 24.0,
+    "Methane": 302.0,
+    "Ethylene": 0.0,
+    "Ethane": 917.0,
+    "Acetylene": 3.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 228,
+    "Hydrogen": 21.0,
+    "Methane": 237.0,
+    "Ethylene": 4.0,
+    "Ethane": 926.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 229,
+    "Hydrogen": 7.0,
+    "Methane": 551.0,
+    "Ethylene": 1083.0,
+    "Ethane": 128.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 230,
+    "Hydrogen": 36.0,
+    "Methane": 8.0,
+    "Ethylene": 51.0,
+    "Ethane": 3.0,
+    "Acetylene": 60.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 231,
+    "Hydrogen": 22.4,
+    "Methane": 22.4,
+    "Ethylene": 13.44,
+    "Ethane": 2.69,
+    "Acetylene": 1.57,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 232,
+    "Hydrogen": 0.67,
+    "Methane": 0.224,
+    "Ethylene": 0.067,
+    "Ethane": 0.045,
+    "Acetylene": 0.002,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 233,
+    "Hydrogen": 1.0,
+    "Methane": 27.0,
+    "Ethylene": 4.0,
+    "Ethane": 49.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 234,
+    "Hydrogen": 595.0,
+    "Methane": 80.0,
+    "Ethylene": 89.0,
+    "Ethane": 9.0,
+    "Acetylene": 244.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 235,
+    "Hydrogen": 260.0,
+    "Methane": 215.0,
+    "Ethylene": 334.0,
+    "Ethane": 35.0,
+    "Acetylene": 277.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 236,
+    "Hydrogen": 2240.0,
+    "Methane": 157.0,
+    "Ethylene": 157.0,
+    "Ethane": 90.0,
+    "Acetylene": 45.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 237,
+    "Hydrogen": 21.0,
+    "Methane": 14.0,
+    "Ethylene": 90.0,
+    "Ethane": 191.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 238,
+    "Hydrogen": 18.0,
+    "Methane": 35.0,
+    "Ethylene": 110.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 239,
+    "Hydrogen": 407.0,
+    "Methane": 28.0,
+    "Ethylene": 21.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 240,
+    "Hydrogen": 119.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 20.0,
+    "Acetylene": 21.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 241,
+    "Hydrogen": 48.0,
+    "Methane": 20.0,
+    "Ethylene": 41.0,
+    "Ethane": 69.0,
+    "Acetylene": 31.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 242,
+    "Hydrogen": 1667.0,
+    "Methane": 146.0,
+    "Ethylene": 1.0,
+    "Ethane": 55.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 243,
+    "Hydrogen": 432.0,
+    "Methane": 184.0,
+    "Ethylene": 259.0,
+    "Ethane": 20.0,
+    "Acetylene": 421.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 244,
+    "Hydrogen": 200.0,
+    "Methane": 54.0,
+    "Ethylene": 41.0,
+    "Ethane": 21.0,
+    "Acetylene": 130.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 245,
+    "Hydrogen": 130.0,
+    "Methane": 65.0,
+    "Ethylene": 110.0,
+    "Ethane": 40.0,
+    "Acetylene": 40.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 246,
+    "Hydrogen": 750.0,
+    "Methane": 250.0,
+    "Ethylene": 300.0,
+    "Ethane": 950.0,
+    "Acetylene": 190.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 247,
+    "Hydrogen": 348.0,
+    "Methane": 11646.0,
+    "Ethylene": 46976.0,
+    "Ethane": 9901.0,
+    "Acetylene": 407.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 248,
+    "Hydrogen": 110.0,
+    "Methane": 69.0,
+    "Ethylene": 39.0,
+    "Ethane": 44.0,
+    "Acetylene": 26.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 249,
+    "Hydrogen": 750.0,
+    "Methane": 43.0,
+    "Ethylene": 50.0,
+    "Ethane": 40.0,
+    "Acetylene": 145.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 250,
+    "Hydrogen": 39.0,
+    "Methane": 10.0,
+    "Ethylene": 6.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 251,
+    "Hydrogen": 5.0,
+    "Methane": 1.0,
+    "Ethylene": 5.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 252,
+    "Hydrogen": 6.0,
+    "Methane": 1.0,
+    "Ethylene": 4.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 253,
+    "Hydrogen": 6.0,
+    "Methane": 17.0,
+    "Ethylene": 17.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 254,
+    "Hydrogen": 7.0,
+    "Methane": 138.0,
+    "Ethylene": 50.0,
+    "Ethane": 32.0,
+    "Acetylene": 2.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 255,
+    "Hydrogen": 11.0,
+    "Methane": 4.0,
+    "Ethylene": 9.0,
+    "Ethane": 7.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 256,
+    "Hydrogen": 5.0,
+    "Methane": 3.0,
+    "Ethylene": 17.0,
+    "Ethane": 6.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 257,
+    "Hydrogen": 29.0,
+    "Methane": 1.0,
+    "Ethylene": 18.0,
+    "Ethane": 25.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 258,
+    "Hydrogen": 5.0,
+    "Methane": 30.0,
+    "Ethylene": 21.0,
+    "Ethane": 12.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 259,
+    "Hydrogen": 7.0,
+    "Methane": 171.0,
+    "Ethylene": 327.0,
+    "Ethane": 106.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 260,
+    "Hydrogen": 5.0,
+    "Methane": 13.0,
+    "Ethylene": 10.0,
+    "Ethane": 9.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 261,
+    "Hydrogen": 6.0,
+    "Methane": 79.0,
+    "Ethylene": 27.0,
+    "Ethane": 137.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 262,
+    "Hydrogen": 16.0,
+    "Methane": 12.0,
+    "Ethylene": 28.0,
+    "Ethane": 6.0,
+    "Acetylene": 29.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 263,
+    "Hydrogen": 5.0,
+    "Methane": 2.0,
+    "Ethylene": 6.0,
+    "Ethane": 12.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 264,
+    "Hydrogen": 688.0,
+    "Methane": 35.0,
+    "Ethylene": 18.0,
+    "Ethane": 14.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 265,
+    "Hydrogen": 524.0,
+    "Methane": 91.0,
+    "Ethylene": 96.0,
+    "Ethane": 46.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 266,
+    "Hydrogen": 1120.0,
+    "Methane": 111.0,
+    "Ethylene": 117.0,
+    "Ethane": 27.0,
+    "Acetylene": 4.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 267,
+    "Hydrogen": 5.0,
+    "Methane": 10.0,
+    "Ethylene": 7.0,
+    "Ethane": 8.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 268,
+    "Hydrogen": 7.0,
+    "Methane": 61.0,
+    "Ethylene": 18.0,
+    "Ethane": 63.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 269,
+    "Hydrogen": 5.0,
+    "Methane": 2.0,
+    "Ethylene": 2.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.5,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 270,
+    "Hydrogen": 5.0,
+    "Methane": 4.0,
+    "Ethylene": 63.0,
+    "Ethane": 160.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 271,
+    "Hydrogen": 7225.0,
+    "Methane": 121.0,
+    "Ethylene": 160.0,
+    "Ethane": 8.0,
+    "Acetylene": 1797.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 272,
+    "Hydrogen": 10.0,
+    "Methane": 18.0,
+    "Ethylene": 21.0,
+    "Ethane": 84.0,
+    "Acetylene": 16.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 273,
+    "Hydrogen": 1866.0,
+    "Methane": 64.0,
+    "Ethylene": 111.0,
+    "Ethane": 112.0,
+    "Acetylene": 1265.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 274,
+    "Hydrogen": 2845.0,
+    "Methane": 7406.0,
+    "Ethylene": 16684.0,
+    "Ethane": 5467.0,
+    "Acetylene": 7.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 275,
+    "Hydrogen": 12886.0,
+    "Methane": 877.0,
+    "Ethylene": 4.0,
+    "Ethane": 305.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 276,
+    "Hydrogen": 2820.0,
+    "Methane": 144.0,
+    "Ethylene": 206.0,
+    "Ethane": 11.0,
+    "Acetylene": 2190.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 277,
+    "Hydrogen": 1099.0,
+    "Methane": 545.0,
+    "Ethylene": 6.0,
+    "Ethane": 230.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 278,
+    "Hydrogen": 3210.0,
+    "Methane": 160.0,
+    "Ethylene": 4.0,
+    "Ethane": 43.0,
+    "Acetylene": 4.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 279,
+    "Hydrogen": 13500.0,
+    "Methane": 3150.0,
+    "Ethylene": 5.0,
+    "Ethane": 1230.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 280,
+    "Hydrogen": 10200.0,
+    "Methane": 573.0,
+    "Ethylene": 0.0,
+    "Ethane": 162.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 281,
+    "Hydrogen": 3.0,
+    "Methane": 5.0,
+    "Ethylene": 12.0,
+    "Ethane": 2.0,
+    "Acetylene": 13.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 282,
+    "Hydrogen": 16.0,
+    "Methane": 8.0,
+    "Ethylene": 5.0,
+    "Ethane": 8.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 283,
+    "Hydrogen": 488.0,
+    "Methane": 13.0,
+    "Ethylene": 29.0,
+    "Ethane": 23.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 284,
+    "Hydrogen": 4.0,
+    "Methane": 1.0,
+    "Ethylene": 13.0,
+    "Ethane": 0.0,
+    "Acetylene": 13.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 285,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 11.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 286,
+    "Hydrogen": 254.0,
+    "Methane": 14.0,
+    "Ethylene": 5.0,
+    "Ethane": 9.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 287,
+    "Hydrogen": 23349.0,
+    "Methane": 5045.0,
+    "Ethylene": 5588.0,
+    "Ethane": 3532.0,
+    "Acetylene": 2951.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 288,
+    "Hydrogen": 9040.0,
+    "Methane": 1790.0,
+    "Ethylene": 7820.0,
+    "Ethane": 638.0,
+    "Acetylene": 1450.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 289,
+    "Hydrogen": 13200.0,
+    "Methane": 2650.0,
+    "Ethylene": 16400.0,
+    "Ethane": 1610.0,
+    "Acetylene": 1510.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 290,
+    "Hydrogen": 6620.0,
+    "Methane": 2240.0,
+    "Ethylene": 13100.0,
+    "Ethane": 1400.0,
+    "Acetylene": 1660.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 291,
+    "Hydrogen": 8710.0,
+    "Methane": 658.0,
+    "Ethylene": 1260.0,
+    "Ethane": 97.0,
+    "Acetylene": 9740.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 292,
+    "Hydrogen": 5810.0,
+    "Methane": 471.0,
+    "Ethylene": 798.0,
+    "Ethane": 44.0,
+    "Acetylene": 3990.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 293,
+    "Hydrogen": 757.0,
+    "Methane": 1700.0,
+    "Ethylene": 2280.0,
+    "Ethane": 755.0,
+    "Acetylene": 12.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 294,
+    "Hydrogen": 590.0,
+    "Methane": 949.0,
+    "Ethylene": 828.0,
+    "Ethane": 168.0,
+    "Acetylene": 582.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 295,
+    "Hydrogen": 1310.0,
+    "Methane": 1010.0,
+    "Ethylene": 2520.0,
+    "Ethane": 376.0,
+    "Acetylene": 17.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 296,
+    "Hydrogen": 122.0,
+    "Methane": 50.0,
+    "Ethylene": 69.0,
+    "Ethane": 31.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 297,
+    "Hydrogen": 106.0,
+    "Methane": 47.0,
+    "Ethylene": 11.0,
+    "Ethane": 30.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 298,
+    "Hydrogen": 95.0,
+    "Methane": 72.0,
+    "Ethylene": 10.0,
+    "Ethane": 36.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 299,
+    "Hydrogen": 87.0,
+    "Methane": 47.0,
+    "Ethylene": 5.0,
+    "Ethane": 31.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 300,
+    "Hydrogen": 79.0,
+    "Methane": 72.0,
+    "Ethylene": 83.0,
+    "Ethane": 42.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 301,
+    "Hydrogen": 2183.0,
+    "Methane": 1061.0,
+    "Ethylene": 1308.0,
+    "Ethane": 646.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 302,
+    "Hydrogen": 76.0,
+    "Methane": 45.0,
+    "Ethylene": 10.0,
+    "Ethane": 27.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 303,
+    "Hydrogen": 14.0,
+    "Methane": 0.0,
+    "Ethylene": 22.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 304,
+    "Hydrogen": 14.0,
+    "Methane": 12.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 305,
+    "Hydrogen": 40.0,
+    "Methane": 8.0,
+    "Ethylene": 9.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 306,
+    "Hydrogen": 5.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 307,
+    "Hydrogen": 7.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 308,
+    "Hydrogen": 2390.0,
+    "Methane": 163.0,
+    "Ethylene": 3.0,
+    "Ethane": 53.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 309,
+    "Hydrogen": 12880.0,
+    "Methane": 827.0,
+    "Ethylene": 4.0,
+    "Ethane": 320.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 310,
+    "Hydrogen": 10700.0,
+    "Methane": 625.0,
+    "Ethylene": 0.0,
+    "Ethane": 190.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 311,
+    "Hydrogen": 921.0,
+    "Methane": 42.0,
+    "Ethylene": 75.0,
+    "Ethane": 3.0,
+    "Acetylene": 713.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 312,
+    "Hydrogen": 9350.0,
+    "Methane": 188.0,
+    "Ethylene": 228.0,
+    "Ethane": 28.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 313,
+    "Hydrogen": 6200.0,
+    "Methane": 218.0,
+    "Ethylene": 103.0,
+    "Ethane": 39.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 314,
+    "Hydrogen": 3060.0,
+    "Methane": 190.0,
+    "Ethylene": 68.0,
+    "Ethane": 47.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 315,
+    "Hydrogen": 7907.0,
+    "Methane": 467.0,
+    "Ethylene": 2.0,
+    "Ethane": 249.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 316,
+    "Hydrogen": 5030.0,
+    "Methane": 179.0,
+    "Ethylene": 0.0,
+    "Ethane": 21.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 317,
+    "Hydrogen": 322.0,
+    "Methane": 181.0,
+    "Ethylene": 170.0,
+    "Ethane": 15.0,
+    "Acetylene": 173.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 318,
+    "Hydrogen": 152.0,
+    "Methane": 254.0,
+    "Ethylene": 2250.0,
+    "Ethane": 908.0,
+    "Acetylene": 4830.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 319,
+    "Hydrogen": 211.0,
+    "Methane": 148.0,
+    "Ethylene": 751.0,
+    "Ethane": 103.0,
+    "Acetylene": 3030.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 320,
+    "Hydrogen": 277.0,
+    "Methane": 142.0,
+    "Ethylene": 802.0,
+    "Ethane": 59.0,
+    "Acetylene": 3840.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 321,
+    "Hydrogen": 253.0,
+    "Methane": 135.0,
+    "Ethylene": 57.0,
+    "Ethane": 734.0,
+    "Acetylene": 3330.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 322,
+    "Hydrogen": 216.0,
+    "Methane": 93.0,
+    "Ethylene": 578.0,
+    "Ethane": 36.0,
+    "Acetylene": 2830.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 323,
+    "Hydrogen": 135.0,
+    "Methane": 33.0,
+    "Ethylene": 3.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 324,
+    "Hydrogen": 0.0,
+    "Methane": 4.0,
+    "Ethylene": 30.0,
+    "Ethane": 49.0,
+    "Acetylene": 67.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 325,
+    "Hydrogen": 38.0,
+    "Methane": 11.0,
+    "Ethylene": 28.0,
+    "Ethane": 3.0,
+    "Acetylene": 19.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 326,
+    "Hydrogen": 36.0,
+    "Methane": 101.0,
+    "Ethylene": 193.0,
+    "Ethane": 35.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 327,
+    "Hydrogen": 30.0,
+    "Methane": 161.0,
+    "Ethylene": 248.0,
+    "Ethane": 28.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 328,
+    "Hydrogen": 52.0,
+    "Methane": 37.0,
+    "Ethylene": 8.0,
+    "Ethane": 21.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 329,
+    "Hydrogen": 30.0,
+    "Methane": 39.0,
+    "Ethylene": 17.0,
+    "Ethane": 48.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 330,
+    "Hydrogen": 24.0,
+    "Methane": 41.0,
+    "Ethylene": 10.0,
+    "Ethane": 65.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 331,
+    "Hydrogen": 21.0,
+    "Methane": 32.0,
+    "Ethylene": 9.0,
+    "Ethane": 47.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 332,
+    "Hydrogen": 59.0,
+    "Methane": 20.0,
+    "Ethylene": 9.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 333,
+    "Hydrogen": 104.0,
+    "Methane": 37.0,
+    "Ethylene": 11.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 334,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 10.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 335,
+    "Hydrogen": 40.0,
+    "Methane": 9.0,
+    "Ethylene": 17.0,
+    "Ethane": 12.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 336,
+    "Hydrogen": 35.0,
+    "Methane": 6.0,
+    "Ethylene": 20.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 337,
+    "Hydrogen": 3.0,
+    "Methane": 37.0,
+    "Ethylene": 10.0,
+    "Ethane": 102.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 338,
+    "Hydrogen": 0.0,
+    "Methane": 43.0,
+    "Ethylene": 4.0,
+    "Ethane": 91.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 339,
+    "Hydrogen": 28.0,
+    "Methane": 16.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 340,
+    "Hydrogen": 25.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 341,
+    "Hydrogen": 25.0,
+    "Methane": 12.0,
+    "Ethylene": 4.0,
+    "Ethane": 14.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 342,
+    "Hydrogen": 23.0,
+    "Methane": 16.0,
+    "Ethylene": 5.0,
+    "Ethane": 6.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 343,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 344,
+    "Hydrogen": 9.0,
+    "Methane": 10.0,
+    "Ethylene": 4.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 345,
+    "Hydrogen": 4.0,
+    "Methane": 22.0,
+    "Ethylene": 7.0,
+    "Ethane": 47.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 346,
+    "Hydrogen": 8.0,
+    "Methane": 14.0,
+    "Ethylene": 6.0,
+    "Ethane": 22.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 347,
+    "Hydrogen": 7.0,
+    "Methane": 13.0,
+    "Ethylene": 4.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 348,
+    "Hydrogen": 7.0,
+    "Methane": 9.0,
+    "Ethylene": 4.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 349,
+    "Hydrogen": 7.0,
+    "Methane": 2.0,
+    "Ethylene": 28.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 350,
+    "Hydrogen": 7.0,
+    "Methane": 10.0,
+    "Ethylene": 4.0,
+    "Ethane": 18.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 351,
+    "Hydrogen": 6.0,
+    "Methane": 17.0,
+    "Ethylene": 7.0,
+    "Ethane": 31.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 352,
+    "Hydrogen": 5.0,
+    "Methane": 16.0,
+    "Ethylene": 5.0,
+    "Ethane": 22.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 353,
+    "Hydrogen": 5.0,
+    "Methane": 4.0,
+    "Ethylene": 7.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 354,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 10.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 355,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 17.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 356,
+    "Hydrogen": 4.0,
+    "Methane": 5.0,
+    "Ethylene": 2.0,
+    "Ethane": 6.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 357,
+    "Hydrogen": 4.0,
+    "Methane": 2.0,
+    "Ethylene": 8.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 358,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 66.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 359,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 18.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 360,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 18.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 361,
+    "Hydrogen": 3.0,
+    "Methane": 5.0,
+    "Ethylene": 9.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 362,
+    "Hydrogen": 2.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 363,
+    "Hydrogen": 2.0,
+    "Methane": 2.0,
+    "Ethylene": 55.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 364,
+    "Hydrogen": 0.0,
+    "Methane": 17.0,
+    "Ethylene": 6.0,
+    "Ethane": 41.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 365,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 7.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 366,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 367,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 368,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 369,
+    "Hydrogen": 0.0,
+    "Methane": 3.0,
+    "Ethylene": 9.0,
+    "Ethane": 8.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 370,
+    "Hydrogen": 0.0,
+    "Methane": 13.0,
+    "Ethylene": 4.0,
+    "Ethane": 22.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 371,
+    "Hydrogen": 0.0,
+    "Methane": 6.0,
+    "Ethylene": 8.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 372,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 373,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 374,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 375,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 376,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 377,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 378,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 379,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 380,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 8.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 381,
+    "Hydrogen": 0.0,
+    "Methane": 7.0,
+    "Ethylene": 3.0,
+    "Ethane": 13.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 382,
+    "Hydrogen": 18.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 7.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 383,
+    "Hydrogen": 11.0,
+    "Methane": 7.0,
+    "Ethylene": 47.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 384,
+    "Hydrogen": 16.0,
+    "Methane": 5.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 385,
+    "Hydrogen": 12.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 8.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 386,
+    "Hydrogen": 4.0,
+    "Methane": 36.0,
+    "Ethylene": 3.0,
+    "Ethane": 54.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 387,
+    "Hydrogen": 114.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 388,
+    "Hydrogen": 1450.0,
+    "Methane": 157.0,
+    "Ethylene": 82.0,
+    "Ethane": 75.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 389,
+    "Hydrogen": 81.0,
+    "Methane": 10.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 390,
+    "Hydrogen": 67.0,
+    "Methane": 14.0,
+    "Ethylene": 0.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 391,
+    "Hydrogen": 1230.0,
+    "Methane": 61.0,
+    "Ethylene": 28.0,
+    "Ethane": 24.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 392,
+    "Hydrogen": 54.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 393,
+    "Hydrogen": 44.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 394,
+    "Hydrogen": 37.0,
+    "Methane": 21.0,
+    "Ethylene": 10.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 395,
+    "Hydrogen": 24.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 396,
+    "Hydrogen": 24.0,
+    "Methane": 12.0,
+    "Ethylene": 3.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 397,
+    "Hydrogen": 22.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 398,
+    "Hydrogen": 20.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 399,
+    "Hydrogen": 19.0,
+    "Methane": 15.0,
+    "Ethylene": 2.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 400,
+    "Hydrogen": 8.0,
+    "Methane": 23.0,
+    "Ethylene": 0.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 401,
+    "Hydrogen": 8.0,
+    "Methane": 21.0,
+    "Ethylene": 0.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 402,
+    "Hydrogen": 7.0,
+    "Methane": 21.0,
+    "Ethylene": 0.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 403,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 404,
+    "Hydrogen": 9.0,
+    "Methane": 16.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 405,
+    "Hydrogen": 7.0,
+    "Methane": 18.0,
+    "Ethylene": 0.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 406,
+    "Hydrogen": 7.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 407,
+    "Hydrogen": 7.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 408,
+    "Hydrogen": 7.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 409,
+    "Hydrogen": 7.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 410,
+    "Hydrogen": 6.0,
+    "Methane": 13.0,
+    "Ethylene": 9.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 411,
+    "Hydrogen": 6.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 412,
+    "Hydrogen": 6.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 413,
+    "Hydrogen": 5.0,
+    "Methane": 17.0,
+    "Ethylene": 3.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 414,
+    "Hydrogen": 5.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 415,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 6.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 416,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 417,
+    "Hydrogen": 4.0,
+    "Methane": 8.0,
+    "Ethylene": 0.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 418,
+    "Hydrogen": 4.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 7.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 419,
+    "Hydrogen": 4.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 420,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 421,
+    "Hydrogen": 3.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 422,
+    "Hydrogen": 3.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 423,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 424,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 8.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 425,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 426,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 30.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 427,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 28.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 428,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 429,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 430,
+    "Hydrogen": 2.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 431,
+    "Hydrogen": 2.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 432,
+    "Hydrogen": 2.0,
+    "Methane": 3.0,
+    "Ethylene": 9.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 433,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 9.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 434,
+    "Hydrogen": 0.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 435,
+    "Hydrogen": 0.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 436,
+    "Hydrogen": 0.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 437,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 438,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 10.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 439,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 7.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 440,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 441,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 442,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 443,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 444,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 445,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 446,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 447,
+    "Hydrogen": 11.0,
+    "Methane": 11.0,
+    "Ethylene": 3.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 448,
+    "Hydrogen": 17.0,
+    "Methane": 16.0,
+    "Ethylene": 11.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 449,
+    "Hydrogen": 12.0,
+    "Methane": 4.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 450,
+    "Hydrogen": 12.0,
+    "Methane": 11.0,
+    "Ethylene": 16.0,
+    "Ethane": 8.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 451,
+    "Hydrogen": 178.0,
+    "Methane": 144.0,
+    "Ethylene": 3.0,
+    "Ethane": 10.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 452,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 453,
+    "Hydrogen": 4.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 3.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 454,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 2.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 455,
+    "Hydrogen": 9.0,
+    "Methane": 35.0,
+    "Ethylene": 52.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 456,
+    "Hydrogen": 17.0,
+    "Methane": 29.0,
+    "Ethylene": 3.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 457,
+    "Hydrogen": 14.0,
+    "Methane": 78.0,
+    "Ethylene": 33.0,
+    "Ethane": 1850.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 458,
+    "Hydrogen": 478.0,
+    "Methane": 21.0,
+    "Ethylene": 0.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 459,
+    "Hydrogen": 14.0,
+    "Methane": 11.0,
+    "Ethylene": 13.0,
+    "Ethane": 5.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 460,
+    "Hydrogen": 13.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 461,
+    "Hydrogen": 13.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 462,
+    "Hydrogen": 13.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 80.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 463,
+    "Hydrogen": 13.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 464,
+    "Hydrogen": 13.0,
+    "Methane": 10.0,
+    "Ethylene": 15.0,
+    "Ethane": 71.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 465,
+    "Hydrogen": 14.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 100.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 466,
+    "Hydrogen": 14.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 467,
+    "Hydrogen": 14.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 44.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 468,
+    "Hydrogen": 14.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 73.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 469,
+    "Hydrogen": 14.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 60.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 470,
+    "Hydrogen": 14.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 471,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 472,
+    "Hydrogen": 7.0,
+    "Methane": 3.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 473,
+    "Hydrogen": 15.0,
+    "Methane": 4.0,
+    "Ethylene": 13.0,
+    "Ethane": 3.0,
+    "Acetylene": 1.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 474,
+    "Hydrogen": 227.0,
+    "Methane": 11.0,
+    "Ethylene": 8.0,
+    "Ethane": 26.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 475,
+    "Hydrogen": 114.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 476,
+    "Hydrogen": 104.0,
+    "Methane": 5.0,
+    "Ethylene": 17.0,
+    "Ethane": 274.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 477,
+    "Hydrogen": 91.0,
+    "Methane": 6.0,
+    "Ethylene": 8.0,
+    "Ethane": 168.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 478,
+    "Hydrogen": 91.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 6.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 479,
+    "Hydrogen": 89.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 44.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 480,
+    "Hydrogen": 88.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 481,
+    "Hydrogen": 79.0,
+    "Methane": 6.0,
+    "Ethylene": 14.0,
+    "Ethane": 533.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 482,
+    "Hydrogen": 78.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 121.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 483,
+    "Hydrogen": 73.0,
+    "Methane": 10.0,
+    "Ethylene": 1.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 484,
+    "Hydrogen": 71.0,
+    "Methane": 8.0,
+    "Ethylene": 7.0,
+    "Ethane": 257.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 485,
+    "Hydrogen": 70.0,
+    "Methane": 1.0,
+    "Ethylene": 7.0,
+    "Ethane": 117.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 486,
+    "Hydrogen": 61.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 117.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 487,
+    "Hydrogen": 61.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 52.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 488,
+    "Hydrogen": 59.0,
+    "Methane": 15.0,
+    "Ethylene": 5.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 489,
+    "Hydrogen": 59.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 109.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 490,
+    "Hydrogen": 59.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 97.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 491,
+    "Hydrogen": 58.0,
+    "Methane": 3.0,
+    "Ethylene": 2.0,
+    "Ethane": 86.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 492,
+    "Hydrogen": 58.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 108.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 493,
+    "Hydrogen": 57.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 147.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 494,
+    "Hydrogen": 56.0,
+    "Methane": 4.0,
+    "Ethylene": 8.0,
+    "Ethane": 430.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 495,
+    "Hydrogen": 54.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 496,
+    "Hydrogen": 54.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 127.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 497,
+    "Hydrogen": 54.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 126.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 498,
+    "Hydrogen": 54.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 126.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 499,
+    "Hydrogen": 52.0,
+    "Methane": 3.0,
+    "Ethylene": 5.0,
+    "Ethane": 82.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 500,
+    "Hydrogen": 52.0,
+    "Methane": 22.0,
+    "Ethylene": 5.0,
+    "Ethane": 51.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 501,
+    "Hydrogen": 52.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 60.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 502,
+    "Hydrogen": 52.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 68.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 503,
+    "Hydrogen": 51.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 217.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 504,
+    "Hydrogen": 50.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 105.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 505,
+    "Hydrogen": 49.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 112.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 506,
+    "Hydrogen": 49.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 85.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 507,
+    "Hydrogen": 48.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 77.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 508,
+    "Hydrogen": 48.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 79.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 509,
+    "Hydrogen": 48.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 144.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 510,
+    "Hydrogen": 48.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 112.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 511,
+    "Hydrogen": 48.0,
+    "Methane": 3.0,
+    "Ethylene": 5.0,
+    "Ethane": 132.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 512,
+    "Hydrogen": 47.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 57.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 513,
+    "Hydrogen": 47.0,
+    "Methane": 2.0,
+    "Ethylene": 5.0,
+    "Ethane": 73.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 514,
+    "Hydrogen": 46.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 54.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 515,
+    "Hydrogen": 46.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 122.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 516,
+    "Hydrogen": 42.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 56.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 517,
+    "Hydrogen": 40.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 106.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 518,
+    "Hydrogen": 40.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 74.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 519,
+    "Hydrogen": 39.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 96.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 520,
+    "Hydrogen": 39.0,
+    "Methane": 4.0,
+    "Ethylene": 5.0,
+    "Ethane": 83.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 521,
+    "Hydrogen": 38.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 136.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 522,
+    "Hydrogen": 38.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 150.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 523,
+    "Hydrogen": 37.0,
+    "Methane": 3.0,
+    "Ethylene": 8.0,
+    "Ethane": 51.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 524,
+    "Hydrogen": 37.0,
+    "Methane": 5.0,
+    "Ethylene": 8.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 525,
+    "Hydrogen": 37.0,
+    "Methane": 3.0,
+    "Ethylene": 2.0,
+    "Ethane": 78.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 526,
+    "Hydrogen": 37.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 62.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 527,
+    "Hydrogen": 36.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 157.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 528,
+    "Hydrogen": 35.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 44.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 529,
+    "Hydrogen": 35.0,
+    "Methane": 3.0,
+    "Ethylene": 4.0,
+    "Ethane": 79.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 530,
+    "Hydrogen": 35.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 91.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 531,
+    "Hydrogen": 35.0,
+    "Methane": 4.0,
+    "Ethylene": 9.0,
+    "Ethane": 96.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 532,
+    "Hydrogen": 3.0,
+    "Methane": 37.0,
+    "Ethylene": 87.0,
+    "Ethane": 32.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 533,
+    "Hydrogen": 34.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 534,
+    "Hydrogen": 34.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 37.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 535,
+    "Hydrogen": 33.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 91.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 536,
+    "Hydrogen": 33.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 184.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 537,
+    "Hydrogen": 32.0,
+    "Methane": 4.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 538,
+    "Hydrogen": 30.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 111.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 539,
+    "Hydrogen": 30.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 83.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 540,
+    "Hydrogen": 30.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 69.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 541,
+    "Hydrogen": 30.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 70.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 542,
+    "Hydrogen": 30.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 79.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 543,
+    "Hydrogen": 29.0,
+    "Methane": 6.0,
+    "Ethylene": 13.0,
+    "Ethane": 270.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 544,
+    "Hydrogen": 29.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 89.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 545,
+    "Hydrogen": 29.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 78.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 546,
+    "Hydrogen": 29.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 115.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 547,
+    "Hydrogen": 28.0,
+    "Methane": 5.0,
+    "Ethylene": 3.0,
+    "Ethane": 51.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 548,
+    "Hydrogen": 27.0,
+    "Methane": 11.0,
+    "Ethylene": 4.0,
+    "Ethane": 11.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 549,
+    "Hydrogen": 27.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 122.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 550,
+    "Hydrogen": 26.0,
+    "Methane": 7.0,
+    "Ethylene": 6.0,
+    "Ethane": 302.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 551,
+    "Hydrogen": 26.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 62.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 552,
+    "Hydrogen": 26.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 553,
+    "Hydrogen": 25.0,
+    "Methane": 9.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 554,
+    "Hydrogen": 25.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 102.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 555,
+    "Hydrogen": 24.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 556,
+    "Hydrogen": 24.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 92.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 557,
+    "Hydrogen": 24.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 105.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 558,
+    "Hydrogen": 24.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 559,
+    "Hydrogen": 23.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 76.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 560,
+    "Hydrogen": 23.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 48.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 561,
+    "Hydrogen": 23.0,
+    "Methane": 1.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 562,
+    "Hydrogen": 23.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 563,
+    "Hydrogen": 22.0,
+    "Methane": 7.0,
+    "Ethylene": 11.0,
+    "Ethane": 286.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 564,
+    "Hydrogen": 22.0,
+    "Methane": 3.0,
+    "Ethylene": 5.0,
+    "Ethane": 291.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 565,
+    "Hydrogen": 21.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 68.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 566,
+    "Hydrogen": 21.0,
+    "Methane": 3.0,
+    "Ethylene": 7.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 567,
+    "Hydrogen": 21.0,
+    "Methane": 5.0,
+    "Ethylene": 6.0,
+    "Ethane": 523.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 568,
+    "Hydrogen": 21.0,
+    "Methane": 5.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 569,
+    "Hydrogen": 21.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 65.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 570,
+    "Hydrogen": 20.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 571,
+    "Hydrogen": 20.0,
+    "Methane": 4.0,
+    "Ethylene": 16.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 572,
+    "Hydrogen": 20.0,
+    "Methane": 7.0,
+    "Ethylene": 2.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 573,
+    "Hydrogen": 19.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 574,
+    "Hydrogen": 4.0,
+    "Methane": 24.0,
+    "Ethylene": 60.0,
+    "Ethane": 17.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 575,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 576,
+    "Hydrogen": 10.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 108.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 577,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 102.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 578,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 579,
+    "Hydrogen": 10.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 211.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 580,
+    "Hydrogen": 10.0,
+    "Methane": 7.0,
+    "Ethylene": 30.0,
+    "Ethane": 521.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 581,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 128.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 582,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 583,
+    "Hydrogen": 9.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 584,
+    "Hydrogen": 9.0,
+    "Methane": 6.0,
+    "Ethylene": 17.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 585,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 55.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 586,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 5.0,
+    "Ethane": 278.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 587,
+    "Hydrogen": 9.0,
+    "Methane": 4.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 588,
+    "Hydrogen": 9.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 589,
+    "Hydrogen": 9.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 184.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 590,
+    "Hydrogen": 8.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 43.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 591,
+    "Hydrogen": 8.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 592,
+    "Hydrogen": 8.0,
+    "Methane": 3.0,
+    "Ethylene": 12.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 593,
+    "Hydrogen": 8.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 594,
+    "Hydrogen": 8.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 595,
+    "Hydrogen": 8.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 596,
+    "Hydrogen": 8.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 79.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 597,
+    "Hydrogen": 8.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 75.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 598,
+    "Hydrogen": 8.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 75.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 599,
+    "Hydrogen": 8.0,
+    "Methane": 1.0,
+    "Ethylene": 3.0,
+    "Ethane": 78.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 600,
+    "Hydrogen": 8.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 227.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 601,
+    "Hydrogen": 8.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 158.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 602,
+    "Hydrogen": 7.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 603,
+    "Hydrogen": 7.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 604,
+    "Hydrogen": 7.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 605,
+    "Hydrogen": 7.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 606,
+    "Hydrogen": 7.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 607,
+    "Hydrogen": 7.0,
+    "Methane": 16.0,
+    "Ethylene": 7.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 608,
+    "Hydrogen": 7.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 167.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 609,
+    "Hydrogen": 7.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 67.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 610,
+    "Hydrogen": 7.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 611,
+    "Hydrogen": 7.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 612,
+    "Hydrogen": 7.0,
+    "Methane": 5.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 613,
+    "Hydrogen": 6.0,
+    "Methane": 5.0,
+    "Ethylene": 5.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 614,
+    "Hydrogen": 6.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 615,
+    "Hydrogen": 6.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 616,
+    "Hydrogen": 6.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 617,
+    "Hydrogen": 6.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 618,
+    "Hydrogen": 6.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 619,
+    "Hydrogen": 6.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 620,
+    "Hydrogen": 6.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 621,
+    "Hydrogen": 6.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 622,
+    "Hydrogen": 6.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 623,
+    "Hydrogen": 6.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 624,
+    "Hydrogen": 6.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 35.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 625,
+    "Hydrogen": 6.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 175.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 626,
+    "Hydrogen": 5.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 627,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 628,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 629,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 11.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 630,
+    "Hydrogen": 5.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 631,
+    "Hydrogen": 5.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 632,
+    "Hydrogen": 5.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 633,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 634,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 635,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 636,
+    "Hydrogen": 5.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 637,
+    "Hydrogen": 5.0,
+    "Methane": 10.0,
+    "Ethylene": 19.0,
+    "Ethane": 14.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 638,
+    "Hydrogen": 5.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 68.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 639,
+    "Hydrogen": 5.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 640,
+    "Hydrogen": 4.0,
+    "Methane": 5.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 641,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 642,
+    "Hydrogen": 4.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 643,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 644,
+    "Hydrogen": 4.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 645,
+    "Hydrogen": 4.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 646,
+    "Hydrogen": 4.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 647,
+    "Hydrogen": 4.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 648,
+    "Hydrogen": 4.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 649,
+    "Hydrogen": 4.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 650,
+    "Hydrogen": 4.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 651,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 652,
+    "Hydrogen": 4.0,
+    "Methane": 4.0,
+    "Ethylene": 9.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 653,
+    "Hydrogen": 4.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 654,
+    "Hydrogen": 4.0,
+    "Methane": 1.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 655,
+    "Hydrogen": 4.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 99.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 656,
+    "Hydrogen": 4.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 657,
+    "Hydrogen": 3.0,
+    "Methane": 6.0,
+    "Ethylene": 16.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 658,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 49.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 659,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 2.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 660,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 99.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 661,
+    "Hydrogen": 3.0,
+    "Methane": 4.0,
+    "Ethylene": 4.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 662,
+    "Hydrogen": 3.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 663,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 664,
+    "Hydrogen": 3.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 665,
+    "Hydrogen": 3.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 666,
+    "Hydrogen": 3.0,
+    "Methane": 1.0,
+    "Ethylene": 17.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 667,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 668,
+    "Hydrogen": 3.0,
+    "Methane": 7.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 669,
+    "Hydrogen": 3.0,
+    "Methane": 5.0,
+    "Ethylene": 3.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 670,
+    "Hydrogen": 3.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 671,
+    "Hydrogen": 3.0,
+    "Methane": 11.0,
+    "Ethylene": 10.0,
+    "Ethane": 5.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 672,
+    "Hydrogen": 3.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 153.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 673,
+    "Hydrogen": 3.0,
+    "Methane": 10.0,
+    "Ethylene": 21.0,
+    "Ethane": 4.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 674,
+    "Hydrogen": 3.0,
+    "Methane": 9.0,
+    "Ethylene": 18.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 675,
+    "Hydrogen": 3.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 676,
+    "Hydrogen": 3.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 677,
+    "Hydrogen": 2.0,
+    "Methane": 4.0,
+    "Ethylene": 2.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 678,
+    "Hydrogen": 2.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 679,
+    "Hydrogen": 2.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 680,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 681,
+    "Hydrogen": 0.0,
+    "Methane": 4.0,
+    "Ethylene": 3.0,
+    "Ethane": 292.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 682,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 8.0,
+    "Ethane": 2.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 683,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 6.0,
+    "Ethane": 1.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 684,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 685,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 686,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 3.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 687,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 688,
+    "Hydrogen": 0.0,
+    "Methane": 1.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 689,
+    "Hydrogen": 0.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 690,
+    "Hydrogen": 0.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 691,
+    "Hydrogen": 0.0,
+    "Methane": 4.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 692,
+    "Hydrogen": 0.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 693,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 694,
+    "Hydrogen": 0.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 695,
+    "Hydrogen": 0.0,
+    "Methane": 6.0,
+    "Ethylene": 34.0,
+    "Ethane": 15.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 696,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 697,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 21.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 698,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 699,
+    "Hydrogen": 0.0,
+    "Methane": 3.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 700,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 701,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 702,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 703,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 704,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 705,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 706,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 707,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 6.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 708,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 709,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 99.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 710,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 711,
+    "Hydrogen": 0.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 712,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 713,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 714,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 715,
+    "Hydrogen": 0.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 716,
+    "Hydrogen": 18.0,
+    "Methane": 5.0,
+    "Ethylene": 3.0,
+    "Ethane": 91.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 717,
+    "Hydrogen": 11.0,
+    "Methane": 3.0,
+    "Ethylene": 0.0,
+    "Ethane": 3.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 718,
+    "Hydrogen": 11.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 49.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 719,
+    "Hydrogen": 11.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 60.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 720,
+    "Hydrogen": 11.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 54.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 721,
+    "Hydrogen": 11.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 63.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 722,
+    "Hydrogen": 11.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 723,
+    "Hydrogen": 11.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 211.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 724,
+    "Hydrogen": 17.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 97.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 725,
+    "Hydrogen": 17.0,
+    "Methane": 6.0,
+    "Ethylene": 5.0,
+    "Ethane": 211.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 726,
+    "Hydrogen": 17.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 56.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 727,
+    "Hydrogen": 17.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 64.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 728,
+    "Hydrogen": 17.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 116.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 729,
+    "Hydrogen": 17.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 730,
+    "Hydrogen": 16.0,
+    "Methane": 15.0,
+    "Ethylene": 0.0,
+    "Ethane": 21.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 731,
+    "Hydrogen": 16.0,
+    "Methane": 6.0,
+    "Ethylene": 0.0,
+    "Ethane": 138.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 732,
+    "Hydrogen": 16.0,
+    "Methane": 0.0,
+    "Ethylene": 0.0,
+    "Ethane": 53.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 733,
+    "Hydrogen": 16.0,
+    "Methane": 4.0,
+    "Ethylene": 17.0,
+    "Ethane": 183.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 734,
+    "Hydrogen": 12.0,
+    "Methane": 2.0,
+    "Ethylene": 4.0,
+    "Ethane": 48.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 735,
+    "Hydrogen": 12.0,
+    "Methane": 2.0,
+    "Ethylene": 3.0,
+    "Ethane": 72.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 736,
+    "Hydrogen": 12.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 51.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 737,
+    "Hydrogen": 12.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 84.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 738,
+    "Hydrogen": 12.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 739,
+    "Hydrogen": 15.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 84.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 740,
+    "Hydrogen": 15.0,
+    "Methane": 3.0,
+    "Ethylene": 3.0,
+    "Ethane": 108.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 741,
+    "Hydrogen": 15.0,
+    "Methane": 2.0,
+    "Ethylene": 0.0,
+    "Ethane": 0.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 742,
+    "Hydrogen": 15.0,
+    "Methane": 5.0,
+    "Ethylene": 0.0,
+    "Ethane": 72.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  },
+  {
+    "ID": 743,
+    "Hydrogen": 15.0,
+    "Methane": 3.0,
+    "Ethylene": 5.0,
+    "Ethane": 27.0,
+    "Acetylene": 0.0,
+    "Fault": "No Fault"
+  }
+]

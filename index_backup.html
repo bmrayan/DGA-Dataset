@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DGA Database - Dissolved Gas Analysis for Transformer Fault Diagnosis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      line-height: 1.6;
+    }
+    
+    .navbar {
+      background: linear-gradient(135deg, #800000, #a00000);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 0;
+    }
+    
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    
+    .navbar-brand {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 15px 0;
+    }
+    
+    .navbar-nav {
+      display: flex;
+      list-style: none;
+    }
+    
+    .navbar-nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      transition: background-color 0.3s;
+      border-radius: 4px;
+      margin: 0 5px;
+    }
+    
+    .navbar-nav a:hover, .navbar-nav a.active {
+      background-color: rgba(255,255,255,0.2);
+    }
+    
+    .hero {
+      background: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 1px solid #e1e5e9;
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      opacity: 0.9;
+    }
+    
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      display: block;
+    }
+    
+    .stat-label {
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .query-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .query-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .query-header h2 {
+      color: #333;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    
+    .query-header p {
+      color: #666;
+      font-size: 1.1rem;
+    }
+    
+    .query-input-group {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+    
+    .query-input {
+      flex: 1;
+      min-width: 300px;
+      padding: 12px 16px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    
+    .query-input:focus {
+      outline: none;
+      border-color: #800000;
+    }
+    
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #800000, #a00000);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(128,0,0,0.4);
+    }
+    
+    .btn-secondary {
+      background: #f8f9fa;
+      color: #333;
+      border: 2px solid #e1e5e9;
+    }
+    
+    .btn-secondary:hover {
+      background: #e9ecef;
+      border-color: #adb5bd;
+    }
+    
+    .preset-queries {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+    
+    .results-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-top: 30px;
+      display: none;
+    }
+    
+    .results-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .results-count {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    
+    .download-options {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    
+    .results-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    .results-table th,
+    .results-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e1e5e9;
+    }
+    
+    .results-table th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .results-table tr:hover {
+      background-color: #f8f9fa;
+    }
+    
+    .alert {
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+    
+    .alert-info {
+      background-color: #d1ecf1;
+      color: #0c5460;
+      border: 1px solid #bee5eb;
+    }
+    
+    .alert-warning {
+      background-color: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffeaa7;
+    }
+    
+    .alert-error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+    }
+    
+    .loading::after {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #800000;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-left: 10px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+    
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .stats {
+        gap: 20px;
+      }
+      
+      .query-input-group {
+        flex-direction: column;
+      }
+      
+      .query-input {
+        min-width: 100%;
+      }
+      
+      .preset-queries {
+        grid-template-columns: 1fr;
+      }
+      
+      .navbar-container {
+        flex-direction: column;
+        padding: 10px 20px;
+      }
+      
+      .navbar-nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-brand">DGA Database</a>
+      <div class="navbar-nav">
+        <a href="index.html" class="active">Database</a>
+        <a href="analysis.html">Analysis</a>
+        <a href="collection.html">Methodology</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>DGA Database</h1>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Query Section -->
+    <section class="query-section">
+      <div class="query-header">
+        <h2>Query Database</h2>
+        <p>Search and filter transformer data using simple expressions</p>
+      </div>
+      
+      <div class="query-input-group">
+        <input type="text" class="query-input" id="queryInput" 
+               placeholder="Enter query (e.g., Hydrogen > 100 OR Fault == 'Electrical')">
+        <button class="btn btn-primary" onclick="executeQuery()">Search</button>
+        <button class="btn btn-secondary" onclick="clearQuery()">Clear</button>
+        <button class="btn btn-primary" onclick="downloadFullDatabase()">Download Complete Database</button>
+      </div>
+      
+      <div class="preset-queries">
+        <button class="btn btn-secondary" onclick="setQuery('Hydrogen > 100')">H2 over 100 ppm</button>
+        <button class="btn btn-secondary" onclick="setQuery('Methane < 50')">CH4 below 50 ppm</button>
+        <button class="btn btn-secondary" onclick="setQuery('Fault != \"No Fault\"')">Transformers with Faults</button>
+      </div>
+      
+      <div class="alert alert-info">
+        <strong>Query Examples:</strong><br>
+        • <code>Hydrogen > 200</code> - Find transformers with hydrogen above 200 ppm<br>
+        • <code>Fault == "Electrical"</code> - Find electrical faults<br>
+        • <code>Hydrogen > 100 AND Methane > 30</code> - Multiple conditions<br>
+        • <code>Ethylene > 50 OR Acetylene > 5</code> - Alternative conditions
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="resultsSection">
+      <div class="results-header">
+        <div class="results-count" id="resultsCount">0 records found</div>
+        <div class="download-options">
+          <button class="btn btn-primary" onclick="showResultsPopup()">View Results</button>
+          <button class="btn btn-primary" onclick="downloadCSV()">Download CSV</button>
+          <button class="btn btn-primary" onclick="downloadJSON()">Download JSON</button>
+        </div>
+      </div>
+      
+      <div id="resultsContainer">
+        <!-- Results will be populated here -->
+      </div>
+    </section>
+
+    <!-- Loading indicator -->
+    <div id="loadingIndicator" class="loading" style="display: none;">
+      Loading data...
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 DGA Database Project. Open access dataset for transformer condition monitoring research.</p>
+    <p>Data provided under open access license for research and educational purposes.</p>
+  </footer>
+
+  <script>
+    // Embed data directly to avoid CORS issues
+    let dgaData = [
+      {"ID": 1, "Hydrogen": 3930.0, "Methane": 2397.0, "Ethylene": 0.0, "Ethane": 157.0, "Acetylene": 0.0, "Fault": "Partial discharge"},
+      {"ID": 2, "Hydrogen": 37800.0, "Methane": 1740.0, "Ethylene": 8.0, "Ethane": 249.0, "Acetylene": 8.0, "Fault": "Partial discharge"},
+      {"ID": 3, "Hydrogen": 92600.0, "Methane": 10200.0, "Ethylene": 0.0, "Ethane": 0.0, "Acetylene": 0.0, "Fault": "Partial discharge"},
+      {"ID": 4, "Hydrogen": 8266.0, "Methane": 1061.0, "Ethylene": 0.0, "Ethane": 22.0, "Acetylene": 0.0, "Fault": "Partial discharge"},
+      {"ID": 5, "Hydrogen": 9340.0, "Methane": 995.0, "Ethylene": 6.0, "Ethane": 60.0, "Acetylene": 7.0, "Fault": "Partial discharge"},
+      {"ID": 6, "Hydrogen": 36036.0, "Methane": 4704.0, "Ethylene": 5.0, "Ethane": 554.0, "Acetylene": 10.0, "Fault": "Partial discharge"},
+      {"ID": 7, "Hydrogen": 33046.0, "Methane": 619.0, "Ethylene": 2.0, "Ethane": 58.0, "Acetylene": 0.0, "Fault": "Partial discharge"},
+      {"ID": 8, "Hydrogen": 40280.0, "Methane": 1069.0, "Ethylene": 1.0, "Ethane": 1060.0, "Acetylene": 1.0, "Fault": "Partial discharge"},
+      {"ID": 9, "Hydrogen": 26788.0, "Methane": 18342.0, "Ethylene": 27.0, "Ethane": 2111.0, "Acetylene": 0.0, "Fault": "Partial discharge"},
+      {"ID": 10, "Hydrogen": 78.0, "Methane": 20.0, "Ethylene": 13.0, "Ethane": 11.0, "Acetylene": 28.0, "Fault": "Spark discharge"},
+      {"ID": 11, "Hydrogen": 305.0, "Methane": 100.0, "Ethylene": 161.0, "Ethane": 33.0, "Acetylene": 541.0, "Fault": "Spark discharge"},
+      {"ID": 12, "Hydrogen": 35.0, "Methane": 6.0, "Ethylene": 26.0, "Ethane": 3.0, "Acetylene": 482.0, "Fault": "Spark discharge"},
+      {"ID": 13, "Hydrogen": 543.0, "Methane": 120.0, "Ethylene": 411.0, "Ethane": 41.0, "Acetylene": 1880.0, "Fault": "Spark discharge"},
+      {"ID": 14, "Hydrogen": 1230.0, "Methane": 163.0, "Ethylene": 233.0, "Ethane": 27.0, "Acetylene": 692.0, "Fault": "Spark discharge"},
+      {"ID": 15, "Hydrogen": 645.0, "Methane": 86.0, "Ethylene": 110.0, "Ethane": 13.0, "Acetylene": 317.0, "Fault": "Spark discharge"},
+      {"ID": 16, "Hydrogen": 60.0, "Methane": 10.0, "Ethylene": 4.0, "Ethane": 4.0, "Acetylene": 4.0, "Fault": "Spark discharge"},
+      {"ID": 17, "Hydrogen": 95.0, "Methane": 10.0, "Ethylene": 11.0, "Ethane": 0.0, "Acetylene": 39.0, "Fault": "Spark discharge"}
+    ];
+    let filteredData = [];
+    let isDataLoaded = true;
+
+    // Initialize when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      updateStats();
+      showAlert('info', `Database loaded successfully! ${dgaData.length} transformer records available.`);
+    });
+
+    function showResultsPopup() {
+      if (filteredData.length === 0) {
+        showAlert('warning', 'No data to display. Please run a query first.');
+        return;
+      }
+
+      // Create table rows
+      let tableRows = '';
+      filteredData.forEach(row => {
+        tableRows += '<tr>' +
+          '<td>' + row.ID + '</td>' +
+          '<td>' + row.Hydrogen.toFixed(1) + '</td>' +
+          '<td>' + row.Methane.toFixed(1) + '</td>' +
+          '<td>' + row.Ethylene.toFixed(1) + '</td>' +
+          '<td>' + row.Ethane.toFixed(1) + '</td>' +
+          '<td>' + row.Acetylene.toFixed(1) + '</td>' +
+          '<td>' + row.Fault + '</td>' +
+          '</tr>';
+      });
+
+      // Create CSV content for copying
+      const csvContent = 'ID,Hydrogen_ppm,Methane_ppm,Ethylene_ppm,Ethane_ppm,Acetylene_ppm,Fault_Type\\n' +
+        filteredData.map(row => 
+          row.ID + ',' + 
+          row.Hydrogen + ',' + 
+          row.Methane + ',' + 
+          row.Ethylene + ',' + 
+          row.Ethane + ',' + 
+          row.Acetylene + ',' + 
+          '"' + (row.Fault || 'No Fault').replace(/"/g, '""') + '"'
+        ).join('\\n');
+
+      // Open popup window
+      const popup = window.open('', 'QueryResults', 'width=1000,height=600,scrollbars=yes,resizable=yes');
+      popup.document.write(
+        '<html><head><title>Query Results - DGA Database</title>' +
+        '<style>' +
+        'body { font-family: Arial, sans-serif; margin: 20px; }' +
+        'table { border-collapse: collapse; width: 100%; margin: 20px 0; }' +
+        'th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }' +
+        'th { background-color: #f2f2f2; font-weight: bold; }' +
+        'tr:nth-child(even) { background-color: #f9f9f9; }' +
+        '.header { margin-bottom: 20px; }' +
+        '.copy-btn { background: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; margin: 10px 5px; }' +
+        '.copy-btn:hover { background: #0056b3; }' +
+        '</style></head><body>' +
+        '<div class="header">' +
+        '<h2>DGA Database Query Results</h2>' +
+        '<p><strong>' + filteredData.length + '</strong> transformers found</p>' +
+        '<button class="copy-btn" onclick="copyToClipboard()">Copy as CSV</button>' +
+        '</div>' +
+        '<table>' +
+        '<thead><tr><th>ID</th><th>H₂ (ppm)</th><th>CH₄ (ppm)</th><th>C₂H₄ (ppm)</th><th>C₂H₆ (ppm)</th><th>C₂H₂ (ppm)</th><th>Fault Type</th></tr></thead>' +
+        '<tbody>' + tableRows + '</tbody>' +
+        '</table>' +
+        '<script>' +
+        'function copyToClipboard() {' +
+        'const csvData = "' + csvContent.replace(/"/g, '\\"') + '";' +
+        'navigator.clipboard.writeText(csvData).then(() => alert("CSV data copied to clipboard!"));' +
+        '}' +
+        '</script>' +
+        '</body></html>'
+      );
+      popup.document.close();
+    }
+
+    function updateStats() {
+      if (dgaData.length > 0) {
+        document.getElementById('totalTransformers').textContent = dgaData.length;
+        
+        // Count fault cases
+        const faultCases = dgaData.filter(row => 
+          row.Fault && row.Fault !== 'No Fault' && row.Fault.trim() !== ''
+        ).length;
+        document.getElementById('faultCases').textContent = faultCases;
+      }
+    }
+
+    function setQuery(query) {
+      document.getElementById('queryInput').value = query;
+    }
+
+    function clearQuery() {
+      document.getElementById('queryInput').value = '';
+      hideResults();
+    }
+
+    function executeQuery() {
+      if (!isDataLoaded) {
+        showAlert('warning', 'Please wait for the database to load.');
+        return;
+      }
+
+      const query = document.getElementById('queryInput').value.trim();
+      
+      if (!query) {
+        showAlert('warning', 'Please enter a query.');
+        return;
+      }
+
+      try {
+        filteredData = dgaData.filter(row => {
+          try {
+            // Replace field names in the query with row values
+            let processedQuery = query
+              .replace(/\bHydrogen\b/gi, `row.Hydrogen`)
+              .replace(/\bMethane\b/gi, `row.Methane`)
+              .replace(/\bEthylene\b/gi, `row.Ethylene`)
+              .replace(/\bEthane\b/gi, `row.Ethane`)
+              .replace(/\bAcetylene\b/gi, `row.Acetylene`)
+              .replace(/\bFault\b/gi, `row.Fault`)
+              .replace(/\bID\b/gi, `row.ID`)
+              .replace(/\bAND\b/gi, '&&')
+              .replace(/\bOR\b/gi, '||')
+              .replace(/\bNOT\b/gi, '!');
+
+            // Use Function constructor for safer evaluation
+            const evalFunction = new Function('row', `return ${processedQuery}`);
+            return evalFunction(row);
+          } catch (e) {
+            return false;
+          }
+        });
+
+        displayResults();
+        
+      } catch (error) {
+        console.error('Query error:', error);
+        showAlert('error', 'Invalid query syntax. Please check your query and try again.');
+      }
+    }
+
+    function displayResults() {
+      const resultsSection = document.getElementById('resultsSection');
+      const resultsCount = document.getElementById('resultsCount');
+      const resultsContainer = document.getElementById('resultsContainer');
+      
+      resultsCount.textContent = `${filteredData.length} records found`;
+      
+      if (filteredData.length === 0) {
+        resultsContainer.innerHTML = '<div class="alert alert-info">No records match your query criteria.</div>';
+      } else {
+        // Create table
+        let tableHTML = `
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>H₂ (ppm)</th>
+                <th>CH₄ (ppm)</th>
+                <th>C₂H₄ (ppm)</th>
+                <th>C₂H₆ (ppm)</th>
+                <th>C₂H₂ (ppm)</th>
+                <th>Fault Type</th>
+              </tr>
+            </thead>
+            <tbody>
+        `;
+        
+        // Limit display to first 100 results for performance
+        const displayData = filteredData.slice(0, 100);
+        
+        displayData.forEach(row => {
+          tableHTML += `
+            <tr>
+              <td>${row.ID || row.NM || '-'}</td>
+              <td>${(row.Hydrogen || row.H2 || 0).toFixed(1)}</td>
+              <td>${(row.Methane || row.CH4 || 0).toFixed(1)}</td>
+              <td>${(row.Ethylene || row.C2H4 || 0).toFixed(1)}</td>
+              <td>${(row.Ethane || row.C2H6 || 0).toFixed(1)}</td>
+              <td>${(row.Acetylene || row.C2H2 || 0).toFixed(1)}</td>
+              <td>${row.Fault || row.Type || 'No Fault'}</td>
+            </tr>
+          `;
+        });
+        
+        tableHTML += '</tbody></table>';
+        
+        if (filteredData.length > 100) {
+          tableHTML += `<div class="alert alert-info">Showing first 100 results. Use download options to get complete dataset.</div>`;
+        }
+        
+        resultsContainer.innerHTML = tableHTML;
+      }
+      
+      resultsSection.style.display = 'block';
+    }
+
+    function hideResults() {
+      document.getElementById('resultsSection').style.display = 'none';
+    }
+
+    function downloadCSV() {
+      if (filteredData.length === 0) {
+        showAlert('warning', 'No data to download. Please run a query first.');
+        return;
+      }
+
+      const headers = ['ID', 'Hydrogen_ppm', 'Methane_ppm', 'Ethylene_ppm', 'Ethane_ppm', 'Acetylene_ppm', 'Fault_Type'];
+      const csvContent = [
+        headers.join(','),
+        ...filteredData.map(row => [
+          row.ID || row.NM || '',
+          row.Hydrogen || row.H2 || 0,
+          row.Methane || row.CH4 || 0,
+          row.Ethylene || row.C2H4 || 0,
+          row.Ethane || row.C2H6 || 0,
+          row.Acetylene || row.C2H2 || 0,
+          `"${(row.Fault || row.Type || 'No Fault').replace(/"/g, '""')}"`
+        ].join(','))
+      ].join('\n');
+
+      downloadFile(csvContent, 'dga_query_results.csv', 'text/csv');
+    }
+
+    function downloadJSON() {
+      if (filteredData.length === 0) {
+        showAlert('warning', 'No data to download. Please run a query first.');
+        return;
+      }
+
+      const jsonContent = JSON.stringify(filteredData, null, 2);
+      downloadFile(jsonContent, 'dga_query_results.json', 'application/json');
+    }
+
+    function downloadFullDatabase() {
+      // Create a link to download the original Excel file
+      const link = document.createElement('a');
+      link.href = 'FinalDataSet_DGA.xlsx';
+      link.download = 'FinalDataSet_DGA.xlsx';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      showAlert('info', 'Complete Excel database download started.');
+    }
+
+    function downloadFile(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+      
+      showAlert('info', `File "${filename}" has been downloaded successfully.`);
+    }
+
+    function showAlert(type, message) {
+      // Remove existing alerts
+      const existingAlerts = document.querySelectorAll('.alert-dynamic');
+      existingAlerts.forEach(alert => alert.remove());
+      
+      // Create new alert
+      const alert = document.createElement('div');
+      alert.className = `alert alert-${type} alert-dynamic`;
+      alert.innerHTML = message;
+      
+      // Insert after query section
+      const querySection = document.querySelector('.query-section');
+      querySection.insertAdjacentElement('afterend', alert);
+      
+      // Auto-remove after 5 seconds
+      setTimeout(() => {
+        if (alert.parentNode) {
+          alert.remove();
+        }
+      }, 5000);
+    }
+
+    // Handle Enter key in query input
+    document.getElementById('queryInput').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        executeQuery();
+      }
+    });
+  </script>
+</body>
+</html>

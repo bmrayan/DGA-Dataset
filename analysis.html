@@ -3,73 +3,542 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Statistical Analysis</title>
+  <title>Statistical Analysis - DGA Database</title>
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      background-color: #f9f9f9;
+      padding: 0;
+      box-sizing: border-box;
     }
-    /* Top Navigation Bar */
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      line-height: 1.6;
+      color: #333;
+    }
+    
     .navbar {
-      background-color: maroon;
+      background: linear-gradient(135deg, #800000, #a00000);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 0;
+    }
+    
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      padding: 10px 0;
+      padding: 0 20px;
     }
-    .navbar a {
-      color: #fff;
-      padding: 14px 20px;
+    
+    .navbar-brand {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
       text-decoration: none;
-      font-size: 18px;
-      margin: 0 10px;
+      padding: 15px 0;
     }
-    .navbar a:hover {
-      background-color: #b30000;
+    
+    .navbar-nav {
+      display: flex;
+      list-style: none;
+    }
+    
+    .navbar-nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      transition: background-color 0.3s;
       border-radius: 4px;
+      margin: 0 5px;
     }
-    /* Main Content Area */
+    
+    .navbar-nav a:hover, .navbar-nav a.active {
+      background-color: rgba(255,255,255,0.2);
+    }
+    
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      font-weight: 300;
+    }
+    
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+    
     .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
-    h1, h2 {
-      color: maroon;
+    
+    .section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .section h2 {
+      color: #800000;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #800000;
+    }
+    
+    .section h3 {
+      color: #333;
+      font-size: 1.3rem;
+      margin: 25px 0 15px 0;
+    }
+    
+    .section p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 25px 0;
+    }
+    
+    .stat-card {
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #dee2e6;
+    }
+    
+    .stat-number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #800000;
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .stat-label {
+      font-size: 0.9rem;
+      color: #666;
+      font-weight: 500;
+    }
+    
+    .figure-container {
+      margin: 30px 0;
       text-align: center;
     }
-    ul {
-      list-style-type: disc;
-      margin: 20px 40px;
+    
+    .figure-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    
+    .figure-caption {
+      font-style: italic;
+      color: #666;
+      font-size: 0.9rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 0 20px;
+    }
+    
+    .methodology-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .methodology-list li {
+      background: #f8f9fa;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-radius: 8px;
+      border-left: 4px solid #800000;
+      transition: transform 0.2s;
+    }
+    
+    .methodology-list li:hover {
+      transform: translateX(5px);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .methodology-list strong {
+      color: #800000;
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .correlation-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+    
+    .correlation-table th,
+    .correlation-table td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #dee2e6;
+    }
+    
+    .correlation-table th {
+      background-color: #800000;
+      color: white;
+      font-weight: 600;
+    }
+    
+    .correlation-table tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+    
+    .correlation-table tbody tr:hover {
+      background-color: #e9ecef;
+    }
+    
+    .highlight-box {
+      background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    
+    .highlight-box h4 {
+      color: #856404;
+      margin-bottom: 10px;
+    }
+    
+    .highlight-box p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+    
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+    
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+      }
+      
+      .stat-number {
+        font-size: 1.5rem;
+      }
+      
+      .navbar-container {
+        flex-direction: column;
+        padding: 10px 20px;
+      }
+      
+      .navbar-nav {
+        margin-top: 10px;
+      }
+      
+      .section {
+        padding: 20px;
+      }
+      
+      .correlation-table {
+        font-size: 0.8rem;
+      }
+      
+      .correlation-table th,
+      .correlation-table td {
+        padding: 8px;
+      }
     }
   </style>
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-brand">DGA Database</a>
+      <div class="navbar-nav">
+        <a href="index.html">Database</a>
+        <a href="analysis.html" class="active">Analysis</a>
+        <a href="collection.html">Methodology</a>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Top Navigation Bar -->
-  <div class="navbar">
-    <a href="index.html">Database</a>
-    <a href="analysis.html">Statistical Analysis</a>
-    <a href="collection.html">Data Collection Method</a>
-  </div>
-
-  <!-- Main Content Container -->
-  <div class="container">
+  <!-- Hero Section -->
+  <section class="hero">
     <h1>Statistical Analysis</h1>
-    <h2>DGA Methods</h2>
-    <ul>
-      <li>Key Gas Method</li>
-      <li>Rogers Ratio Method</li>
-      <li>Doernenburg Ratio Method</li>
-      <li>IEC Ratio Method (IEC 60599 Standard)</li>
-      <li>Duval Triangle/Pentagon</li>
-    </ul>
+    <p>Comprehensive statistical characterization of dissolved gas patterns in transformer oil</p>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    
+    <!-- Dataset Overview -->
+    <section class="section">
+      <h2>Dataset Overview</h2>
+      <p>Statistical analysis of 743 transformer records revealed comprehensive characteristics of dissolved gas patterns in transformer oil. The dataset encompasses measurements of five key hydrocarbon gases collected from diverse geographical locations and transformer types.</p>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">743</span>
+          <span class="stat-label">Total Transformers</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Gas Parameters</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">18</span>
+          <span class="stat-label">Fault Cases</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">348.4</span>
+          <span class="stat-label">Mean H₂ (ppm)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">16.94</span>
+          <span class="stat-label">Max Skewness</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">0.846</span>
+          <span class="stat-label">Max Correlation</span>
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <h4>Key Finding</h4>
+        <p>All gases exhibited high positive skewness (7.76-16.94) with concentration ranges spanning four orders of magnitude. Strong correlations among hydrocarbon gases (0.65-0.85) confirm established gas generation relationships.</p>
+      </div>
+    </section>
+
+    <!-- Gas Distribution Analysis -->
+    <section class="section">
+      <h2>Gas Concentration Distributions</h2>
+      <p>The distribution analysis reveals distinct patterns for each dissolved gas, with hydrogen showing the highest variability and ethylene exhibiting the most extreme concentration ranges.</p>
+      
+      <div class="figure-container">
+        <img src="FinalFigures1/01c2_H2_distribution_log_only.png" alt="Hydrogen Distribution">
+        <div class="figure-caption">
+          <strong>Figure 1a:</strong> Hydrogen concentration distribution across all transformer samples on logarithmic scale, showing wide variation from near-zero to over 20,000 ppm.
+        </div>
+      </div>
+
+      <div class="figure-container">
+        <img src="FinalFigures1/01c2_C2H4_distribution_log_only.png" alt="Ethylene Distribution">
+        <div class="figure-caption">
+          <strong>Figure 1b:</strong> Ethylene concentration distribution demonstrating the highest skewness (16.94) and maximum concentrations exceeding 40,000 ppm.
+        </div>
+      </div>
+
+      <div class="figure-container">
+        <img src="FinalFigures1/03c_distribution_analysis_log_only.png" alt="Box Plot Analysis">
+        <div class="figure-caption">
+          <strong>Figure 2:</strong> Box plots of dissolved gas concentrations on logarithmic scale, showing median values, quartiles, and outliers for each gas type across the transformer dataset.
+        </div>
+      </div>
+    </section>
+
+    <!-- Correlation Analysis -->
+    <section class="section">
+      <h2>Inter-Gas Correlation Analysis</h2>
+      <p>Correlation analysis demonstrated strong relationships among hydrocarbon gases, with the highest correlation between methane and ethane (0.846). These relationships reflect common generation mechanisms during thermal and electrical stress conditions.</p>
+      
+      <div class="figure-container">
+        <img src="FinalFigures1/02_correlation_analysis.png" alt="Correlation Matrix">
+        <div class="figure-caption">
+          <strong>Figure 3:</strong> Pearson correlation coefficients between dissolved gas concentrations. The heatmap reveals strong correlations among hydrocarbon gases and moderate correlations with hydrogen.
+        </div>
+      </div>
+
+      <table class="correlation-table">
+        <thead>
+          <tr>
+            <th>Gas Pair</th>
+            <th>Correlation Coefficient</th>
+            <th>Interpretation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CH₄ - C₂H₆</td>
+            <td>0.846</td>
+            <td>Very Strong</td>
+          </tr>
+          <tr>
+            <td>CH₄ - C₂H₄</td>
+            <td>0.752</td>
+            <td>Strong</td>
+          </tr>
+          <tr>
+            <td>C₂H₆ - C₂H₄</td>
+            <td>0.698</td>
+            <td>Strong</td>
+          </tr>
+          <tr>
+            <td>H₂ - CH₄</td>
+            <td>0.521</td>
+            <td>Moderate</td>
+          </tr>
+          <tr>
+            <td>H₂ - C₂H₂</td>
+            <td>0.357</td>
+            <td>Weak-Moderate</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Frequency Distribution Analysis -->
+    <section class="section">
+      <h2>Frequency Distribution Characteristics</h2>
+      <p>Frequency distribution analysis using logarithmic scaling effectively captured concentration values from near-zero to extreme outliers, providing essential insights for establishing diagnostic thresholds.</p>
+      
+      <div class="figure-container">
+        <img src="FinalFigures1/04c_H2_histogram_log_y_axis.png" alt="Hydrogen Frequency Distribution">
+        <div class="figure-caption">
+          <strong>Figure 4a:</strong> Hydrogen concentration frequency distribution with logarithmic y-axis scaling, showing the characteristic right-skewed pattern typical of DGA data.
+        </div>
+      </div>
+
+      <div class="figure-container">
+        <img src="FinalFigures1/04c_C2H4_histogram_log_y_axis.png" alt="Ethylene Frequency Distribution">
+        <div class="figure-caption">
+          <strong>Figure 4b:</strong> Ethylene concentration frequency distribution demonstrating extreme positive skewness and the presence of significant outliers above 10,000 ppm.
+        </div>
+      </div>
+
+      <div class="figure-container">
+        <img src="FinalFigures1/04_5_distribution_analysis_lognormal.png" alt="Distribution Analysis">
+        <div class="figure-caption">
+          <strong>Figure 5:</strong> Gas concentration distributions with fitted curves, revealing the non-normal nature of DGA data and the need for specialized statistical approaches in fault classification algorithms.
+        </div>
+      </div>
+    </section>
+
+    <!-- Fault Classification Analysis -->
+    <section class="section">
+      <h2>Fault Classification Analysis</h2>
+      <p>The database contains 18 transformers with fault classifications providing representation for diagnostic validation. The majority of transformers (725) remain unclassified, representing normal operational conditions. The classified cases demonstrate distinct gas signature patterns essential for algorithm development.</p>
+      
+      <div class="figure-container">
+        <img src="FinalFigures1/05_fault_analysis.png" alt="Fault Analysis">
+        <div class="figure-caption">
+          <strong>Figure 6:</strong> Fault type distribution and gas signature analysis. (a) Pie chart showing the distribution of fault types in the dataset. (b) Mean gas concentrations by fault type displayed on logarithmic scale, revealing characteristic gas signatures for different transformer fault conditions.
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">14</span>
+          <span class="stat-label">No Fault (1.9%)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Electrical Fault (0.3%)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Thermal Fault (0.3%)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">725</span>
+          <span class="stat-label">Unclassified (97.6%)</span>
+        </div>
+      </div>
+
+      <p>This fault distribution represents authentic transformer operating conditions where most transformers operate normally without fault classification. The classified cases provide valuable diagnostic reference points, with electrical faults showing elevated acetylene and thermal faults displaying higher ethylene and ethane concentrations.</p>
+    </section>
+
+    <!-- DGA Interpretation Methods -->
+    <section class="section">
+      <h2>DGA Interpretation Methods</h2>
+      <p>The dataset supports validation and benchmarking of established DGA interpretation techniques. Each method offers unique advantages for different diagnostic scenarios:</p>
+      
+      <ul class="methodology-list">
+        <li>
+          <strong>Key Gas Method</strong>
+          Identifies the predominant gas to determine fault type. Simple and reliable for initial fault classification, particularly effective when one gas shows significantly elevated concentrations.
+        </li>
+        <li>
+          <strong>Rogers Ratio Method</strong>
+          Uses ratios of gas concentrations (C₂H₂/C₂H₄, CH₄/H₂, C₂H₄/C₂H₆) to classify fault types. Provides good discrimination between thermal and electrical faults.
+        </li>
+        <li>
+          <strong>Doernenburg Ratio Method</strong>
+          Employs four gas ratios with specific threshold criteria. Requires all ratios to exceed limits before fault classification, ensuring conservative diagnosis.
+        </li>
+        <li>
+          <strong>IEC Ratio Method (IEC 60599 Standard)</strong>
+          International standard using three characteristic ratios. Widely adopted globally with extensive validation across different transformer populations.
+        </li>
+        <li>
+          <strong>Duval Triangle/Pentagon</strong>
+          Graphical method plotting relative gas concentrations. Visual interpretation enables identification of fault evolution and mixed fault conditions.
+        </li>
+      </ul>
+
+      <div class="highlight-box">
+        <h4>Research Applications</h4>
+        <p>This dataset enables systematic comparison of these methods, assessment of diagnostic accuracy, and development of hybrid approaches that combine multiple techniques for enhanced fault detection reliability.</p>
+      </div>
+    </section>
+
+    <!-- Statistical Summary -->
+    <section class="section">
+      <h2>Statistical Summary</h2>
+      <p>The comprehensive statistical analysis provides essential benchmarks for transformer condition assessment and algorithm development:</p>
+      
+      <h3>Key Statistical Findings</h3>
+      <ul style="margin-left: 20px; margin-bottom: 20px;">
+        <li><strong>Distribution Characteristics:</strong> All gases exhibit log-normal tendencies with significant positive skewness</li>
+        <li><strong>Concentration Ranges:</strong> Four orders of magnitude variation across all gas types</li>
+        <li><strong>Gas Relationships:</strong> Strong correlations among hydrocarbon gases validate common generation mechanisms</li>
+        <li><strong>Fault Signatures:</strong> Distinct patterns emerge for electrical vs. thermal fault conditions</li>
+        <li><strong>Data Quality:</strong> Systematic preprocessing ensures reliability while preserving diagnostic information</li>
+      </ul>
+
+      <p>These statistical characteristics provide fundamental understanding of gas behavior patterns necessary for advancing transformer diagnostic methodologies and establishing reliable condition assessment protocols. The dataset serves as a benchmark for evaluating both traditional ratio-based methods and modern machine learning approaches to transformer fault diagnosis.</p>
+    </section>
+
   </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 DGA Database Project. Statistical analysis and visualizations for transformer condition monitoring research.</p>
+    <p>All figures and data available under open access license for research and educational purposes.</p>
+  </footer>
 
 </body>
 </html>
